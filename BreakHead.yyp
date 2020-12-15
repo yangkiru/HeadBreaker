@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Body","path":"sprites/Body/Body.yy",},"order":0,},
+    {"id":{"name":"Head","path":"sprites/Head/Head.yy",},"order":1,},
+    {"id":{"name":"unit_body","path":"objects/unit_body/unit_body.yy",},"order":1,},
+    {"id":{"name":"unit_head","path":"objects/unit_head/unit_head.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
