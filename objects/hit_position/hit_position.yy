@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "body",
-    "path": "sprites/body/body.yy",
+    "name": "hit_effect_spr",
+    "path": "sprites/hit_effect_spr/hit_effect_spr.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "unit",
-    "path": "objects/unit/unit.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "unit_body",
+  "name": "hit_position",
   "tags": [],
   "resourceType": "GMObject",
 }
