@@ -25,7 +25,10 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"on_hit_spr","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"head_damaged","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"before_hit_spr","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"head","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

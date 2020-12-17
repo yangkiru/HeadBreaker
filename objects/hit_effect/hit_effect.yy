@@ -4,7 +4,7 @@
     "path": "sprites/hit_effect_spr/hit_effect_spr.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,12 +20,8 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"hit_effect","path":"objects/hit_effect/hit_effect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":1,"value":"30","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"disappear_steps","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
