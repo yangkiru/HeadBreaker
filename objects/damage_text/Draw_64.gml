@@ -1,5 +1,7 @@
 /// @description Insert description here
-// You can write your code in this editor
+
 draw_set_colour($000000);
 draw_set_font(fn_money);
-draw_text(x, y, is_critical ? "Critical! " + string(damage) : damage);
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+draw_text_transformed(x, y, is_critical ? "Critical! " + string(damage) : damage, x_scale, y_scale, 0);

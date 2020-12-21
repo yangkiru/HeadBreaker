@@ -2,7 +2,7 @@
 // You can write your code in this editor
 t2 += delta_time / 1000000;
 if (t2 > decrease_time2) {
-	t2 = decrease_time2;
+	t2 = 0;
 	effect.image_xscale = 1;
 	effect.image_yscale = effect.image_xscale;
 	effect.visible = false;

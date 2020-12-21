@@ -1,18 +1,25 @@
 /// @description 클릭 처리
 // You can write your code in this editor
 
+enum UNIT_Type
+{
+   Main = 0,
+   Head,
+   Body
+}
 
 alarm[0] = 1;	/// 스케일이 돌아오는 알람
 t1 = 0;
 critical = random_range(0, 1);
 is_critical = critical < weapon.crit_chance;
-extra_damage = weapon.on_head * (is_critical ? weapon.crit_damage : 1);
+extra_damage = (type == UNIT_Type.Head ? weapon.on_head : (type == UNIT_Type.Body ? weapon.on_body : 1)) * (is_critical ? weapon.crit_damage : 1);
 damage = weapon.damage * extra_damage;
 unit.hp -= damage;
 money_text.money += 1;
 
 damage_text.damage = damage;
-damage_text.is_critical = is_critical;	
+damage_text.is_critical = is_critical;
+damage_text.alarm[0] = 1;
 
 image_xscale += 0.1 * extra_damage;
 image_yscale = image_xscale;
