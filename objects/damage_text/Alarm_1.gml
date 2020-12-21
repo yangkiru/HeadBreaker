@@ -5,6 +5,7 @@ if (t > 1) {
 	t = 0;
 	x_scale = 1;
 	y_scale = x_scale;
+	visible = false;
 } else {
 	x_scale = lerp(x_scale, 1, t);
 	y_scale = x_scale;
