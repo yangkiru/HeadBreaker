@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "body",
-    "path": "sprites/body/body.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "unit",
-    "path": "objects/unit/unit.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"type","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":53,"eventType":6,"collisionObjectId":null,"parent":{"name":"o_control","path":"objects/o_control/o_control.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
+  "overriddenProperties": [],
   "parent": {
     "name": "unit",
     "path": "folders/Objects/unit.yy",
   },
   "resourceVersion": "1.0",
-  "name": "unit_body",
+  "name": "o_control",
   "tags": [],
   "resourceType": "GMObject",
 }
