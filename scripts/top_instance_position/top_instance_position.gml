@@ -12,8 +12,6 @@ function top_instance_position(xx, yy, object) {
 	while instance_exists(instance) {
 		ds_list_add(instance_list, instance);
 		instance_deactivate_object(instance);
-		show_debug_message(string(top_instance.depth_temp) + " " + string(instance.depth_temp));
-		show_debug_message(object_get_name(top_instance.object_index) + " "  + object_get_name(instance.object_index));
 		if instance.depth_temp > top_instance.depth_temp {
 			top_instance = instance;
 		}

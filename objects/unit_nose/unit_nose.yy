@@ -29,6 +29,7 @@
     {"propertyId":{"name":"on_hit_spr","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"nose","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"before_hit_spr","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"noone","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"type","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "unit",

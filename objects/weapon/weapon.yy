@@ -30,6 +30,14 @@
       ],"resourceVersion":"1.0","name":"effect","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"crit_chance","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"crit_damage","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":6,"value":"1, 0.5, 1, 1, 1, 1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "1",
+        "0.5",
+        "1",
+        "1",
+        "1",
+        "1",
+      ],"multiselect":true,"filters":[],"resourceVersion":"1.0","name":"extra_damage","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

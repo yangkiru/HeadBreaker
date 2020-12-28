@@ -27,6 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"type","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"list_on_hit_change_obj","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "unit",
