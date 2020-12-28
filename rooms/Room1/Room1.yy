@@ -41,7 +41,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"i_head","path":"rooms/Room1/Room1.yy",},
-    {"name":"i_body","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_533A9663","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_155BF157","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_44942024","path":"rooms/Room1/Room1.yy",},
@@ -53,6 +52,7 @@
     {"name":"i_eye_2","path":"rooms/Room1/Room1.yy",},
     {"name":"i_mouth","path":"rooms/Room1/Room1.yy",},
     {"name":"i_nose","path":"rooms/Room1/Room1.yy",},
+    {"name":"i_body","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
