@@ -26,6 +26,7 @@
     {"id":{"name":"dead_eye_2","path":"sprites/dead_eye_2/dead_eye_2.yy",},"order":1,},
     {"id":{"name":"unit_on_click_change_spr","path":"scripts/unit_on_click_change_spr/unit_on_click_change_spr.yy",},"order":2,},
     {"id":{"name":"unit_nose","path":"objects/unit_nose/unit_nose.yy",},"order":2,},
+    {"id":{"name":"destroy_object","path":"scripts/destroy_object/destroy_object.yy",},"order":5,},
     {"id":{"name":"unit_body","path":"objects/unit_body/unit_body.yy",},"order":5,},
     {"id":{"name":"eye_2","path":"sprites/eye_2/eye_2.yy",},"order":4,},
     {"id":{"name":"unit_eye_1","path":"objects/unit_eye_1/unit_eye_1.yy",},"order":0,},
