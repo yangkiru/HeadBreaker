@@ -12,7 +12,7 @@ function top_instance_position(xx, yy, object) {
 	while instance_exists(instance) {
 		ds_list_add(instance_list, instance);
 		instance_deactivate_object(instance);
-		if instance.depth_temp > top_instance.depth_temp {
+		if !instance.is_die && instance.depth_temp > top_instance.depth_temp {
 			top_instance = instance;
 		}
 		instance = instance_position(xx, yy, object);

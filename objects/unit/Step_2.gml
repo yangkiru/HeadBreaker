@@ -4,7 +4,6 @@
 if (!is_die && hp <= 0) {
 	is_die = true;
 	if(on_die != noone) {
-		show_debug_message("on_die");
 		script_execute(on_die, self);
 	}
 }

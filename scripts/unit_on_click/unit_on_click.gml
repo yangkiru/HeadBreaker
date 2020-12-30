@@ -9,8 +9,9 @@ function unit_on_click(obj){
 		extra_damage = weapon.extra_damage[type];
 		damage = weapon.damage * extra_damage;
 		global.hp -= damage;
-		self.hp -= damage;
-		show_debug_message(string(unit.hp) + " " + string(self.hp));
+		show_debug_message(object_get_name(obj.object_index) + string(hp));
+		hp -= damage;
+		show_debug_message(string(hp));
 		money_text.money += 1;
 
 		damage_text.damage = damage;
@@ -30,6 +31,9 @@ function unit_on_click(obj){
 		}
 		// 맞은 스프라이트
 		unit_on_click_change_spr(obj);
+		
+		// 클릭 사운드
+		audio_play_sound(hit_sfx, 10, false);
 		
 		for(i = 0; i < array_length_1d(obj.list_on_hit_change_obj); i++){
 			unit_on_click_change_spr(obj.list_on_hit_change_obj[i]);
