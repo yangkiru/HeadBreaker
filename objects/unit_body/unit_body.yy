@@ -30,8 +30,8 @@
     {"propertyId":{"name":"list_on_hit_change_obj","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "unit",
-    "path": "folders/Objects/unit.yy",
+    "name": "Units",
+    "path": "folders/Objects/Units.yy",
   },
   "resourceVersion": "1.0",
   "name": "unit_body",

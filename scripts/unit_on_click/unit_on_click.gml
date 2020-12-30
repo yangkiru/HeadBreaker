@@ -3,11 +3,11 @@
 function unit_on_click(obj){
 	with (obj) {
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
-		t1 = 0;
+		t = 0;
 		critical = random_range(0, 1);
-		is_critical = critical < weapon.crit_chance;
-		extra_damage = weapon.extra_damage[type];
-		damage = weapon.damage * extra_damage;
+		is_critical = critical < global.current_weapon.crit_chance;
+		extra_damage = global.current_weapon.extra_damage[type];
+		damage = global.current_weapon.damage * extra_damage;
 		global.hp -= damage;
 		show_debug_message(object_get_name(obj.object_index) + string(hp));
 		hp -= damage;

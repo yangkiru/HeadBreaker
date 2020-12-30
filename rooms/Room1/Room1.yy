@@ -19,6 +19,11 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"hp_text","path":"objects/hp_text/hp_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":192.0,"resourceVersion":"1.0","name":"inst_44942024","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"damage_text","path":"objects/damage_text/damage_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":288.0,"resourceVersion":"1.0","name":"inst_35647E22","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_control","path":"objects/o_control/o_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_22E51D16","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"weapon_spawn_point","path":"objects/weapon_spawn_point/weapon_spawn_point.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4,"scaleY":0.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1073.0,"y":19.0,"resourceVersion":"1.0","name":"inst_2C8A0D99","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oops_effect","path":"objects/oops_effect/oops_effect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.210937515,"scaleY":0.210937515,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":605.0,"y":183.0,"resourceVersion":"1.0","name":"oops_eye_1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oops_effect","path":"objects/oops_effect/oops_effect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.210937515,"scaleY":0.210937515,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":685.0,"y":175.0,"resourceVersion":"1.0","name":"oops_eye_2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oops_effect","path":"objects/oops_effect/oops_effect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.230468735,"scaleY":0.230468735,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":656.0,"y":210.000015,"resourceVersion":"1.0","name":"oops_nose","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oops_effect","path":"objects/oops_effect/oops_effect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.302734345,"scaleY":0.302734345,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":659.0,"y":258.0,"resourceVersion":"1.0","name":"oops_mouth","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"gui","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -55,6 +60,11 @@
     {"name":"i_mouth","path":"rooms/Room1/Room1.yy",},
     {"name":"i_nose","path":"rooms/Room1/Room1.yy",},
     {"name":"i_body","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2C8A0D99","path":"rooms/Room1/Room1.yy",},
+    {"name":"oops_eye_1","path":"rooms/Room1/Room1.yy",},
+    {"name":"oops_eye_2","path":"rooms/Room1/Room1.yy",},
+    {"name":"oops_nose","path":"rooms/Room1/Room1.yy",},
+    {"name":"oops_mouth","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 72,
-  "bbox_right": 489,
-  "bbox_top": 66,
-  "bbox_bottom": 498,
+  "bbox_left": 46,
+  "bbox_right": 426,
+  "bbox_top": 96,
+  "bbox_bottom": 440,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f5c5eb95-a767-4c5d-a7a1-7cd50214a82c","path":"sprites/blow_hammer/blow_hammer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5c5eb95-a767-4c5d-a7a1-7cd50214a82c","path":"sprites/blow_hammer/blow_hammer.yy",},"LayerId":{"name":"d43faec3-673b-45c2-9d45-d7141eed9637","path":"sprites/blow_hammer/blow_hammer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"blow_hammer","path":"sprites/blow_hammer/blow_hammer.yy",},"resourceVersion":"1.0","name":"f5c5eb95-a767-4c5d-a7a1-7cd50214a82c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"06bff338-be37-4fc9-a10a-3ab01dfcb2a5","path":"sprites/spr_excalibur/spr_excalibur.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06bff338-be37-4fc9-a10a-3ab01dfcb2a5","path":"sprites/spr_excalibur/spr_excalibur.yy",},"LayerId":{"name":"92699213-3135-40be-8a57-0fc450ac2a77","path":"sprites/spr_excalibur/spr_excalibur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_excalibur","path":"sprites/spr_excalibur/spr_excalibur.yy",},"resourceVersion":"1.0","name":"06bff338-be37-4fc9-a10a-3ab01dfcb2a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"blow_hammer","path":"sprites/blow_hammer/blow_hammer.yy",},
+    "spriteId": {"name":"spr_excalibur","path":"sprites/spr_excalibur/spr_excalibur.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"92a72562-871a-44db-b769-034df8e27df8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5c5eb95-a767-4c5d-a7a1-7cd50214a82c","path":"sprites/blow_hammer/blow_hammer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d4342299-24c7-4ad8-b2a0-9e99b8b77caf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06bff338-be37-4fc9-a10a-3ab01dfcb2a5","path":"sprites/spr_excalibur/spr_excalibur.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"blow_hammer","path":"sprites/blow_hammer/blow_hammer.yy",},
+    "parent": {"name":"spr_excalibur","path":"sprites/spr_excalibur/spr_excalibur.yy",},
     "resourceVersion": "1.3",
-    "name": "blow_hammer",
+    "name": "spr_excalibur",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d43faec3-673b-45c2-9d45-d7141eed9637","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"92699213-3135-40be-8a57-0fc450ac2a77","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "weapon",
     "path": "folders/Sprites/weapon.yy",
   },
   "resourceVersion": "1.0",
-  "name": "blow_hammer",
+  "name": "spr_excalibur",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -26,8 +26,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "unit",
-    "path": "folders/Objects/unit.yy",
+    "name": "Units",
+    "path": "folders/Objects/Units.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_control",

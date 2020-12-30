@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "blank_head",
-    "path": "sprites/blank_head/blank_head.yy",
+    "name": "spr_blow_hammer",
+    "path": "sprites/spr_blow_hammer/spr_blow_hammer.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "unit",
-    "path": "objects/unit/unit.yy",
+    "name": "weapon",
+    "path": "objects/weapon/weapon.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"type","path":"objects/unit/unit.yy",},"objectId":{"name":"unit","path":"objects/unit/unit.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"blow_hammer","path":"objects/blow_hammer/blow_hammer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Units",
-    "path": "folders/Objects/Units.yy",
+    "name": "Weapons",
+    "path": "folders/Objects/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "unit_head",
+  "name": "blow_hammer",
   "tags": [],
   "resourceType": "GMObject",
 }
