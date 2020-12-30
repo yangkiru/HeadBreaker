@@ -22,11 +22,11 @@ function unit_on_click(obj){
 
 		// 힛 이펙트
 		if (effect != noone){
-			t2 = 0;
+			effect.t1 = 0;
 			effect.visible = true;
 			effect.image_xscale += 0.1;
 			effect.image_yscale = effect.image_xscale;
-			alarm[1] = 1;
+			effect.alarm[0] = 1;
 		}
 		// 맞은 스프라이트
 		unit_on_click_change_spr(obj);
