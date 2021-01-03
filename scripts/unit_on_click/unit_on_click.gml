@@ -33,6 +33,7 @@ function unit_on_click(obj){
 		unit_on_click_change_spr(obj);
 		
 		// 클릭 사운드
+		audio_sound_pitch(hit_sfx, random_range(0.8, 1.2));
 		audio_play_sound(hit_sfx, 10, false);
 		
 		for(i = 0; i < array_length_1d(obj.list_on_hit_change_obj); i++){
