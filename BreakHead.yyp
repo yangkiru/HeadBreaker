@@ -21,6 +21,7 @@
     {"id":{"name":"eye_1","path":"sprites/eye_1/eye_1.yy",},"order":3,},
     {"id":{"name":"spawn_weapon","path":"scripts/spawn_weapon/spawn_weapon.yy",},"order":6,},
     {"id":{"name":"excalibur","path":"objects/excalibur/excalibur.yy",},"order":2,},
+    {"id":{"name":"spawn_effect","path":"scripts/spawn_effect/spawn_effect.yy",},"order":7,},
     {"id":{"name":"top_instance_position","path":"scripts/top_instance_position/top_instance_position.yy",},"order":0,},
     {"id":{"name":"hp_text","path":"objects/hp_text/hp_text.yy",},"order":1,},
     {"id":{"name":"unit","path":"objects/unit/unit.yy",},"order":4,},

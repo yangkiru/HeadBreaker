@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function spawn_weapon(_weapon){
 	if (instance_exists(global.current_weapon))
-		destroy_object(global.current_weapon);
+		destroy_object(global.current_weapon, noone);
 	
 	global.current_weapon = instance_create_layer(weapon_spawn_point.x, weapon_spawn_point.y, "gui", _weapon);
 	global.current_weapon.image_xscale = weapon_spawn_point.image_xscale;
