@@ -40,7 +40,9 @@
     {"id":{"name":"eye_2","path":"sprites/eye_2/eye_2.yy",},"order":4,},
     {"id":{"name":"unit_eye_1","path":"objects/unit_eye_1/unit_eye_1.yy",},"order":0,},
     {"id":{"name":"unit_head","path":"objects/unit_head/unit_head.yy",},"order":6,},
+    {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},"order":1,},
     {"id":{"name":"dead_mouth","path":"sprites/dead_mouth/dead_mouth.yy",},"order":2,},
+    {"id":{"name":"nine_slice_box","path":"scripts/nine_slice_box/nine_slice_box.yy",},"order":8,},
     {"id":{"name":"blow_hammer","path":"objects/blow_hammer/blow_hammer.yy",},"order":1,},
     {"id":{"name":"minimal_gui","path":"sprites/minimal_gui/minimal_gui.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -57,6 +59,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
