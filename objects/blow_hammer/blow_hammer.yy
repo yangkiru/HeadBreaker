@@ -27,7 +27,9 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"blow_hammer","path":"objects/blow_hammer/blow_hammer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"damage","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"100000000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Weapons",
     "path": "folders/Objects/Weapons.yy",
