@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a131944d-4ab1-4f91-bd6b-d6ae61f02f31","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "unit",
-    "path": "folders/Sprites/unit.yy",
+    "name": "Unit",
+    "path": "folders/Sprites/Unit.yy",
   },
   "resourceVersion": "1.0",
   "name": "body",

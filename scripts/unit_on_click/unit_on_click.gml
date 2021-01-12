@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function unit_on_click(obj){
 	with (obj) {
+		if (global.is_die) return;
+		
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
 		t = 0;
 		critical = random_range(0, 1);
@@ -9,6 +11,11 @@ function unit_on_click(obj){
 		extra_damage = global.current_weapon.extra_damage[type];
 		damage = global.current_weapon.damage * extra_damage;
 		global.hp -= damage;
+		// 죽을 때
+		if (global.hp < 0) { 
+			global.hp = 0;
+			global.is_die = true;
+		}
 		show_debug_message(object_get_name(obj.object_index) + string(hp));
 		hp -= damage;
 		show_debug_message(string(hp));

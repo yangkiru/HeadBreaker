@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "parts",
-    "path": "folders/Sprites/unit/parts.yy",
+    "path": "folders/Sprites/Unit/parts.yy",
   },
   "resourceVersion": "1.0",
   "name": "mouth",

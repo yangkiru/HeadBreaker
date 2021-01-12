@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"92699213-3135-40be-8a57-0fc450ac2a77","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "weapon",
-    "path": "folders/Sprites/weapon.yy",
+    "name": "Weapon",
+    "path": "folders/Sprites/Weapon.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_excalibur",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4a49c8d-6223-4299-a331-6e1522c3e936","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "effects",
-    "path": "folders/Sprites/effects.yy",
+    "name": "Effects",
+    "path": "folders/Sprites/Effects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oops_effect_spr",
