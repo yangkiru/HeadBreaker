@@ -17,19 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"hp_text","path":"objects/hp_text/hp_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"money","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Texts",
-    "path": "folders/Objects/Texts.yy",
+    "name": "Store",
+    "path": "folders/Objects/GUI/Store.yy",
   },
   "resourceVersion": "1.0",
-  "name": "hp_text",
+  "name": "pnl_store",
   "tags": [],
   "resourceType": "GMObject",
 }
