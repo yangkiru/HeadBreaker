@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "follower",
+    "path": "objects/follower/follower.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
