@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_coin",
+    "path": "sprites/spr_coin/spr_coin.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,19 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"money_text","path":"objects/money_text/money_text.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"money","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"value","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Texts",
-    "path": "folders/Objects/Texts.yy",
+    "name": "Store",
+    "path": "folders/Objects/GUI/Store.yy",
   },
   "resourceVersion": "1.0",
-  "name": "money_text",
+  "name": "coin",
   "tags": [],
   "resourceType": "GMObject",
 }

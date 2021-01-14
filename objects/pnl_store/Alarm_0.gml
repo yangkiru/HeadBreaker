@@ -1,6 +1,6 @@
-/// @description Insert description here
+/// @description 패스 시작
 // You can write your code in this editor
 x = first_x;
 y = first_y;
-with(other) path_start(Path1, 10, path_action_stop, true);
+with(other) path_start(path, 30, path_action_stop, true);
 layer_set_visible("GUI_Store", true);

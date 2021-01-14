@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-layer_set_visible("GUI_Store", false);
+pnl_store.path = path_store_close;
+pnl_store.alarm[0] = 1;
+pnl_store.alarm[1] = 60;

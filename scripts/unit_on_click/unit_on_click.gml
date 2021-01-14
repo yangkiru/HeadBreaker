@@ -19,7 +19,7 @@ function unit_on_click(obj){
 		show_debug_message(object_get_name(obj.object_index) + string(hp));
 		hp -= damage;
 		show_debug_message(string(hp));
-		money_text.money += 1;
+		coin.value += 1;
 
 		damage_text.damage = damage;
 		damage_text.is_critical = is_critical;
