@@ -5,7 +5,6 @@ function Item() constructor {
 	item = noone;
 	price = 0;
 	sale = 0;
-	is_sell = false;
 }
 
 function Weapon() : Item() constructor {
@@ -15,13 +14,22 @@ function Weapon() : Item() constructor {
 function Blow_Hammer() : Weapon() constructor {
 	name = "Blow Hammer";
 	item = blow_hammer;
-	is_sell = false;
 	damage = 1;
 }
 
 function Excalibur() : Weapon() constructor {
 	name = "Excalibur";
 	item = excalibur;
-	is_sell = true;
 	damage = 10;
+}
+
+function get_rand_item() {
+	rand = irandom_range(0, 2);
+	
+	switch(rand) {
+		case 0:
+			return Blow_Hammer();
+		case 1:
+			return Excalibur();
+	}
 }

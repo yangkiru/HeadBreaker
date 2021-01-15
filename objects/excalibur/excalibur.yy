@@ -34,7 +34,7 @@
   ],
   "parent": {
     "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "path": "folders/Objects/Items/Weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "excalibur",

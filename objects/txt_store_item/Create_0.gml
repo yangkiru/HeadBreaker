@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-data = new Blow_Hammer();
+// Inherit the parent event
+event_inherited();
+
+data = noone;
