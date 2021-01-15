@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Texts",
-    "path": "folders/Objects/GUI/Texts.yy",
+    "path": "folders/Objects/Texts.yy",
   },
   "resourceVersion": "1.0",
   "name": "txt_store_main",

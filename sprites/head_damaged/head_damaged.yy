@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae254cfe-252c-4cf7-b3c9-27b53d8cd471","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Unit",
-    "path": "folders/Sprites/Unit.yy",
+    "name": "Units",
+    "path": "folders/Sprites/Units.yy",
   },
   "resourceVersion": "1.0",
   "name": "head_damaged",

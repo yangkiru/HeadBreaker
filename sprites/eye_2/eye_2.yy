@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "parts",
-    "path": "folders/Sprites/Unit/parts.yy",
+    "path": "folders/Sprites/Units/parts.yy",
   },
   "resourceVersion": "1.0",
   "name": "eye_2",

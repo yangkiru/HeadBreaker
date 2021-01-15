@@ -30,6 +30,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"damage","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"crit_chance","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"0.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"name","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"Excalibur","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Weapons",

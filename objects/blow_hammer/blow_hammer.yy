@@ -28,7 +28,8 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"damage","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"100000000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"name","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"Blow Hammer","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Weapons",
