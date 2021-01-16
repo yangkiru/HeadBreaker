@@ -6,4 +6,4 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_center);
 draw_set_font(fn_daughter_20);
 if (data != noone)
-	draw_text(x, y, string(number_of_list) + ". " + item.name);
+	draw_text(x, y, string(number_of_list) + ". " + data.name);

@@ -24,12 +24,16 @@ function Excalibur() : Weapon() constructor {
 }
 
 function get_rand_item() {
-	rand = irandom_range(0, 2);
+	rand = irandom_range(0, 1);
 	
 	switch(rand) {
 		case 0:
-			return Blow_Hammer();
+			show_debug_message("Get Blow_Hammer");
+			return new Blow_Hammer();
 		case 1:
-			return Excalibur();
+			show_debug_message("Get Excalibur");
+			return new Excalibur();
 	}
+	show_debug_message("Get noone");
+	return noone;
 }
