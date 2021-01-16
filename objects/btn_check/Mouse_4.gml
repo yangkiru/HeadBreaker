@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spawn_weapon(blow_hammer);
+image_index = (image_index + 1) % 2;

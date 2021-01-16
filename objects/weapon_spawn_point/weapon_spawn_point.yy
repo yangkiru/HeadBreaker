@@ -22,8 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"weapon_spawn_point","path":"objects/weapon_spawn_point/weapon_spawn_point.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":39,"eventType":5,"collisionObjectId":null,"parent":{"name":"weapon_spawn_point","path":"objects/weapon_spawn_point/weapon_spawn_point.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"weapon_spawn_point","path":"objects/weapon_spawn_point/weapon_spawn_point.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

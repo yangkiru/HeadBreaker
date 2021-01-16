@@ -5,5 +5,6 @@ first_y = y;
 layer_set_visible("GUI_Store", false);
 
 store_list = ds_list_create();
+item_list = ds_list_create();
 
 alarm[2] = 1;

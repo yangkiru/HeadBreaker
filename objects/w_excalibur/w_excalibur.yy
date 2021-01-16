@@ -24,20 +24,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"excalibur","path":"objects/excalibur/excalibur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"w_excalibur","path":"objects/w_excalibur/w_excalibur.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"damage","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"crit_chance","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"0.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"name","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"Excalibur","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"value":"Excalibur","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Weapons",
     "path": "folders/Objects/Items/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "excalibur",
+  "name": "w_excalibur",
   "tags": [],
   "resourceType": "GMObject",
 }

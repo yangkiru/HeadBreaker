@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Hp",
-    "path": "folders/Objects/Hp.yy",
+    "path": "folders/Objects/GUI/Hp.yy",
   },
   "resourceVersion": "1.0",
   "name": "hp_stick",
