@@ -10,32 +10,41 @@ enum ITEM
 
 function Item() constructor {
 	name = "";
-	item = noone;
 	price = 0;
 	sale = 0;
+	is_weapon = false;
+	spr = noone;
 }
 
 function Weapon() : Item() constructor {
 	damage = 0;
+	is_weapon = true;
+	crit_chance = 0.1;
+	crit_damage = 2;
+	extra_damage[UNIT_Type.Main] = 1;
+	extra_damage[UNIT_Type.Head] = 1;
+	extra_damage[UNIT_Type.Body] = 1;
+	extra_damage[UNIT_Type.Eye] = 1;
+	extra_damage[UNIT_Type.Nose] = 1;
+	extra_damage[UNIT_Type.Mouth] = 1;
 }
 
 function Finger() : Weapon() constructor {
 	name = "Finger";
-	item = w_finger;
+	spr = spr_finger;
 	damage = 1;
-	
 }
 
 function Blow_Hammer() : Weapon() constructor {
 	name = "Blow Hammer";
-	item = w_blow_hammer;
+	spr = spr_blow_hammer;
 	damage = 5;
 	price = 20;
 }
 
 function Excalibur() : Weapon() constructor {
 	name = "Excalibur";
-	item = w_excalibur;
+	spr = spr_excalibur;
 	damage = 10;
 	price = 100;
 }

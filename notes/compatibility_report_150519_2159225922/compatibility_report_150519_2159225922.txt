@@ -1,0 +1,533 @@
+Converting GML script: ${project_dir}\scripts\scr_insert_link\scr_insert_link.gml
+Converted description /// @description  scr_insert_link
+
+Converting GML script: ${project_dir}\scripts\scr_endlink\scr_endlink.gml
+Converted description /// @description  scr_endlink
+
+Converting GML script: ${project_dir}\scripts\scr_insert_images\scr_insert_images.gml
+Converted description /// @description  scr_insert_images
+Converted string - line 2: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\scr_test_message\scr_test_message.gml
+Converted string - line 1: 'TEST MESSAGE' -> "TEST MESSAGE"
+
+Converting GML script: ${project_dir}\scripts\text_create\text_create.gml
+Converted description /// @description  text_create(text, font, maxw)/// @param text
+/// @param  font
+/// @param  maxw
+
+Converting GML script: ${project_dir}\scripts\text_refresh\text_refresh.gml
+Converted description /// @description  text_refresh(text_id, font, maxw)/// @param text_id
+/// @param  font
+/// @param  maxw
+
+Converting GML script: ${project_dir}\scripts\text_set_text\text_set_text.gml
+Converted description /// @description  text_set_text(text_id, newtext, font, maxw)/// @param text_id
+/// @param  newtext
+/// @param  font
+/// @param  maxw
+
+Converting GML script: ${project_dir}\scripts\text_render\text_render.gml
+Converted description /// @description  text_render(text_id, x, y, halign, valign)/// @param text_id
+/// @param  x
+/// @param  y
+/// @param  halign
+/// @param  valign
+
+Converting GML script: ${project_dir}\scripts\text_destroy\text_destroy.gml
+Converted description /// @description  text_destroy(text_id)/// @param text_id
+
+Converting GML script: ${project_dir}\scripts\text_create_sprite\text_create_sprite.gml
+Converted description /// @description  text_create_sprite(text_id, smooth, xorig, yorig)/// @param text_id
+/// @param  smooth
+/// @param  xorig
+/// @param  yorig
+
+Converting GML script: ${project_dir}\scripts\text_get_surface\text_get_surface.gml
+Converted description /// @description  text_get_surface(text_id)/// @param text_id
+
+Converting GML script: ${project_dir}\scripts\text_width\text_width.gml
+Converted description /// @description  text_width(text_id)/// @param text_id
+
+Converting GML script: ${project_dir}\scripts\text_height\text_height.gml
+Converted description /// @description  text_height(text_id)/// @param text_id
+
+Converting GML script: ${project_dir}\scripts\text_format_draw\text_format_draw.gml
+ERROR: C:\Users\VISHNYA\Documents\GameMakerStudio2\1\scripts\text_format_draw\text_format_draw.gml - 205: single quotes no longer allowed for string
+ERROR: C:\Users\VISHNYA\Documents\GameMakerStudio2\1\scripts\text_format_draw\text_format_draw.gml - 205: unexpected unary operator !=
+ERROR: C:\Users\VISHNYA\Documents\GameMakerStudio2\1\scripts\text_format_draw\text_format_draw.gml - 240: single quotes no longer allowed for string
+ERROR: C:\Users\VISHNYA\Documents\GameMakerStudio2\1\scripts\text_format_draw\text_format_draw.gml - 240: unexpected unary operator !=
+Too many errors - GML not processed : ${project_dir}\scripts\text_format_draw\text_format_draw.gml
+
+Converting GML script: ${project_dir}\scripts\text_format_destroy\text_format_destroy.gml
+Converted description /// @description  text_format_destroy(text_id)/// @param text_id
+
+Converting GML script: ${project_dir}\scripts\text_format\text_format.gml
+Converted description /// @description  text_format(text, [font, w])/// @param text
+/// @param  [font
+/// @param  w]
+Converted string - line 14: '' -> ""
+Converted string - line 22: '<<tag#' -> "<<tag#"
+Converted string - line 212: 'A' -> "A"
+Converted string - line 281: '' -> ""
+Converted string - line 285: '<<line#' -> "<<line#"
+Converted string - line 298: 'back' -> "back"
+Converted string - line 302: '' -> ""
+Converted string - line 310: '' -> ""
+Converted string - line 310: '' -> ""
+Converted string - line 356: '<<tag#' -> "<<tag#"
+Converted string - line 357: '<<line#' -> "<<line#"
+Converted string - line 366: ' ' -> " "
+Converted string - line 366: ',' -> ","
+Converted string - line 366: '(' -> "("
+Converted string - line 366: ')' -> ")"
+Converted string - line 366: '(' -> "("
+Converted string - line 367: ']' -> "]"
+Converted string - line 367: '[' -> "["
+Converted string - line 367: '[' -> "["
+Converted string - line 379: '' -> ""
+Converted string - line 379: '-' -> "-"
+Converted string - line 394: '-' -> "-"
+Converted string - line 398: '-' -> "-"
+Converted string - line 408: '' -> ""
+Converted string - line 430: '' -> ""
+Converted string - line 435: ' ' -> " "
+Converted string - line 447: 'A' -> "A"
+
+Converting GML script: ${project_dir}\scripts\draw_text_special\draw_text_special.gml
+Converted description /// @description  draw_text_special(x, y, text, [halign, valign, font, w, count])/// @param x
+/// @param  y
+/// @param  text
+/// @param  [halign
+/// @param  valign
+/// @param  font
+/// @param  w
+/// @param  count]
+
+Converting GML script: ${project_dir}\scripts\ts_advdraw\ts_advdraw.gml
+Converted description /// @description  ts_advdraw(x, y, txt, shake, wave, wave_spd, script)/// @param x
+/// @param  y
+/// @param  txt
+/// @param  shake
+/// @param  wave
+/// @param  wave_spd
+/// @param  script
+
+Converting GML script: ${project_dir}\scripts\ts_next\ts_next.gml
+Converted description /// @description  ts_next(str, ind[, sep])/// @param str
+/// @param  ind[
+/// @param  sep]
+Converted string - line 6: '' -> ""
+Converted string - line 16: '|' -> "|"
+Converted string - line 19: '' -> ""
+
+Converting GML script: ${project_dir}\scripts\ts_argument\ts_argument.gml
+Converted description /// @description  ts_argument(str, ind[, sep])/// @param str
+/// @param  ind[
+/// @param  sep]
+Converted string - line 6: '' -> ""
+Converted string - line 6: '' -> ""
+Converted string - line 17: '|' -> "|"
+
+Converting GML script: ${project_dir}\scripts\ts_smoothspace\ts_smoothspace.gml
+Converted description /// @description  ts_smoothspace(array, last)/// @param array
+/// @param  last
+
+Converting GML script: ${project_dir}\scripts\ts_add_keyword\ts_add_keyword.gml
+Converted description /// @description  ts_add_keyword(key, tag)/// @param key
+/// @param  tag
+
+Converting GML script: ${project_dir}\scripts\ts_replace_keyword\ts_replace_keyword.gml
+Converted description /// @description  ts_replace_keyword(key, newtag)/// @param key
+/// @param  newtag
+
+Converting GML script: ${project_dir}\scripts\ts_image\ts_image.gml
+Converted description /// @description  ts_image(sprite_index, [w, h, type, [x, y]])/// @param sprite_index
+/// @param  [w
+/// @param  h
+/// @param  type
+/// @param  [x
+/// @param  y]]
+Converted string - line 21: '<<tag#' -> "<<tag#"
+Converted string - line 21: '|' -> "|"
+Converted string - line 21: '|' -> "|"
+Converted string - line 26: '|' -> "|"
+Converted string - line 29: '|' -> "|"
+Converted string - line 31: '|' -> "|"
+Converted string - line 34: '|' -> "|"
+Converted string - line 36: '|' -> "|"
+Converted string - line 39: '|' -> "|"
+Converted string - line 41: '0|' -> "0|"
+Converted string - line 44: '|' -> "|"
+Converted string - line 46: '0|' -> "0|"
+Converted string - line 48: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_line\ts_line.gml
+Converted description /// @description  ts_line([delta_sep])/// @param [delta_sep]
+Converted string - line 9: '<<line#' -> "<<line#"
+Converted string - line 12: '|' -> "|"
+Converted string - line 14: '0|' -> "0|"
+Converted string - line 15: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_lineback\ts_lineback.gml
+Converted description /// @description  ts_lineback()
+Converted string - line 8: '<<line#back|>>' -> "<<line#back|>>"
+
+Converting GML script: ${project_dir}\scripts\ts_font\ts_font.gml
+Converted description /// @description  ts_font(newfont)/// @param newfont
+Converted string - line 9: '<<tag#' -> "<<tag#"
+Converted string - line 9: '|' -> "|"
+Converted string - line 9: '|>>' -> "|>>"
+
+Converting GML script: ${project_dir}\scripts\ts_outline\ts_outline.gml
+Converted description /// @description  ts_outline(bool, [colour])/// @param bool
+/// @param  [colour]
+Converted string - line 11: '<<tag#' -> "<<tag#"
+Converted string - line 11: '|' -> "|"
+Converted string - line 11: '|' -> "|"
+Converted string - line 14: '|' -> "|"
+Converted string - line 16: '|' -> "|"
+Converted string - line 18: '1|' -> "1|"
+Converted string - line 20: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_underline\ts_underline.gml
+Converted description /// @description  ts_underline([width, colour])/// @param [width
+/// @param  colour]
+Converted string - line 11: '<<tag#' -> "<<tag#"
+Converted string - line 11: '|' -> "|"
+Converted string - line 14: '|' -> "|"
+Converted string - line 16: '0|' -> "0|"
+Converted string - line 19: '|' -> "|"
+Converted string - line 21: '-1|' -> "-1|"
+Converted string - line 23: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_shadow\ts_shadow.gml
+Converted description /// @description  ts_shadow(bool, [pos_x, pos_y, colour, alpha])/// @param bool
+/// @param  [pos_x
+/// @param  pos_y
+/// @param  colour
+/// @param  alpha]
+Converted string - line 17: '<<tag#' -> "<<tag#"
+Converted string - line 17: '|' -> "|"
+Converted string - line 17: '|' -> "|"
+Converted string - line 20: '|' -> "|"
+Converted string - line 22: '1|' -> "1|"
+Converted string - line 25: '|' -> "|"
+Converted string - line 27: '1|' -> "1|"
+Converted string - line 30: '|' -> "|"
+Converted string - line 32: '0|' -> "0|"
+Converted string - line 35: '|' -> "|"
+Converted string - line 37: '1|' -> "1|"
+Converted string - line 39: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_link\ts_link.gml
+Converted description /// @description  ts_link(url_or_script, colour_moveon, colour_press)/// @param url_or_script
+/// @param  colour_moveon
+/// @param  colour_press
+Converted string - line 13: '<<tag#' -> "<<tag#"
+Converted string - line 13: '|' -> "|"
+Converted string - line 16: '|' -> "|"
+Converted string - line 18: '|' -> "|"
+Converted string - line 21: '|' -> "|"
+Converted string - line 23: '-1|' -> "-1|"
+Converted string - line 26: '|' -> "|"
+Converted string - line 28: '-1|' -> "-1|"
+Converted string - line 30: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_halign\ts_halign.gml
+Converted description /// @description  ts_halign(halign)/// @param halign
+Converted string - line 9: '<<tag#' -> "<<tag#"
+Converted string - line 9: '|' -> "|"
+Converted string - line 15: '|>>' -> "|>>"
+
+Converting GML script: ${project_dir}\scripts\ts_valign\ts_valign.gml
+Converted description /// @description  ts_valign(valign)/// @param valign
+Converted string - line 12: '<<tag#' -> "<<tag#"
+Converted string - line 12: '|' -> "|"
+Converted string - line 18: '|>>' -> "|>>"
+
+Converting GML script: ${project_dir}\scripts\ts_colour\ts_colour.gml
+Converted description /// @description  ts_colour(colour)/// @param colour
+Converted string - line 9: '<<tag#' -> "<<tag#"
+Converted string - line 9: '|' -> "|"
+Converted string - line 9: '|>>' -> "|>>"
+
+Converting GML script: ${project_dir}\scripts\ts_space\ts_space.gml
+Converted description /// @description  ts_space(space_w)/// @param space_w
+
+Converting GML script: ${project_dir}\scripts\ts_glow\ts_glow.gml
+Converted description /// @description  ts_glow([colour])/// @param [colour]
+Converted string - line 4: '<<tag#' -> "<<tag#"
+Converted string - line 4: '|' -> "|"
+Converted string - line 7: '|' -> "|"
+Converted string - line 9: '-1|' -> "-1|"
+Converted string - line 11: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_shake\ts_shake.gml
+Converted description /// @description  ts_shake([strong_in_pixels])/// @param [strong_in_pixels]
+Converted string - line 7: '<<tag#' -> "<<tag#"
+Converted string - line 7: '|' -> "|"
+Converted string - line 10: '|' -> "|"
+Converted string - line 12: '0|' -> "0|"
+Converted string - line 14: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_wave\ts_wave.gml
+Converted description /// @description  ts_wave([speed, strong_in_pixels])/// @param [speed
+/// @param  strong_in_pixels]
+Converted string - line 9: '<<tag#' -> "<<tag#"
+Converted string - line 9: '|' -> "|"
+Converted string - line 12: '|' -> "|"
+Converted string - line 14: '0|' -> "0|"
+Converted string - line 17: '|' -> "|"
+Converted string - line 19: '0|' -> "0|"
+Converted string - line 21: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_drawscript\ts_drawscript.gml
+Converted description /// @description  ts_drawscript([script, index])/// @param [script
+/// @param  index]
+Converted string - line 8: '<<tag#' -> "<<tag#"
+Converted string - line 8: '|' -> "|"
+Converted string - line 11: '|' -> "|"
+Converted string - line 13: '15|' -> "15|"
+Converted string - line 21: '|' -> "|"
+Converted string - line 23: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\usertag_enable\usertag_enable.gml
+Converted description /// @description  usertag_enable(bool)/// @param bool
+
+Converting GML script: ${project_dir}\scripts\usertag_add\usertag_add.gml
+Converted description /// @description  usertag_add(start_trigger, argument_count, end, script)/// @param start_trigger
+/// @param  argument_count
+/// @param  end
+/// @param  script
+
+Converting GML script: ${project_dir}\scripts\ts_delete_lastchar\ts_delete_lastchar.gml
+Converted description /// @description  ts_delete_lastchar(string)/// @param string
+Converted string - line 9: '>>' -> ">>"
+Converted string - line 14: '>>' -> ">>"
+Converted string - line 15: '<<tag#' -> "<<tag#"
+Converted string - line 18: '<<line#' -> "<<line#"
+Converted string - line 49: '>>' -> ">>"
+
+Converting GML script: ${project_dir}\scripts\ts_constant\ts_constant.gml
+Converted description /// @description  ts_constant(name, value)/// @param name
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\ts_justify\ts_justify.gml
+Converted description /// @description  ts_justify(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\ts_effects\ts_effects.gml
+Converted description /// @description  ts_effects(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\ts_wordwrapping\ts_wordwrapping.gml
+Converted description /// @description  ts_wordwrapping(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\ts_init\ts_init.gml
+Converted description /// @description  ts_init()
+
+Font f_norm has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_norm\f_norm.gms1.png
+Font f_big has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_big\f_big.gms1.png
+Font f_norm_italic has been converted to font family Arial (Italic)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_norm_italic\f_norm_italic.gms1.png
+Font f_norm_bold has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\f_norm_bold\f_norm_bold.gms1.png
+Converting GML script: ${project_dir}\objects\o_cont\Draw_0.gml
+Converted string - line 5: '/13#press ENTER#to next example#or TAB to pre.' -> "/13#press ENTER#to next example#or TAB to pre."
+
+Converting GML script: ${project_dir}\objects\o_test\Create_0.gml
+Converted string - line 3: '[coin]' -> "[coin]"
+Converted string - line 5: 'lol looks at my [coin], lol [coin][coin] and my [coin]' -> "lol looks at my [coin], lol [coin][coin] and my [coin]"
+
+Converting GML script: ${project_dir}\objects\o_test\Draw_0.gml
+Converted string - line 4: 'You have 3 ways to draw text with this extension:' -> "You have 3 ways to draw text with this extension:"
+Converted string - line 6: 'First way, slowest but simple: use draw_text_special(). Code:#draw_text_special(10, 400, txt, fa_top, fa_left, f_norm, 200)' -> "First way, slowest but simple: use draw_text_special(). Code:#draw_text_special(10, 400, txt, fa_top, fa_left, f_norm, 200)"
+Converted string - line 7: 'Second way, faster but little harder: use text_format() and text_format_draw(). Code:#txt_format=text_format(txt, f_norm, 200)#text_format_draw(310, 400, txt_format, fa_top, fa_left, f_norm)' -> "Second way, faster but little harder: use text_format() and text_format_draw(). Code:#txt_format=text_format(txt, f_norm, 200)#text_format_draw(310, 400, txt_format, fa_top, fa_left, f_norm)"
+Converted string - line 8: 'Thrid way, fastest but more hard: use text_create() and text_render(). Code:#txt_s=text_create(txt)#text_render(txt_s, 610, 400, fa_left, fa_top, f_norm, 200)' -> "Thrid way, fastest but more hard: use text_create() and text_render(). Code:#txt_s=text_create(txt)#text_render(txt_s, 610, 400, fa_left, fa_top, f_norm, 200)"
+Converted string - line 18: 'Please see ' -> "Please see "
+Converted string - line 18: 'https://docs.google.com/document/d/1c1QPVpgQrSAqBINbz-yDDslNIOvOjH0RUbiu1ua5KW8/edit?usp=sharing' -> "https://docs.google.com/document/d/1c1QPVpgQrSAqBINbz-yDDslNIOvOjH0RUbiu1ua5KW8/edit?usp=sharing"
+Converted string - line 18: 'DOCUMENTATION' -> "DOCUMENTATION"
+Converted string - line 18: '.' -> "."
+
+Converting GML script: ${project_dir}\objects\o_test_tags\Draw_0.gml
+Converted string - line 4: 'Using tags You can insert images, change font, colour,# outline, halign, valign and add new line' -> "Using tags You can insert images, change font, colour,# outline, halign, valign and add new line"
+Converted string - line 6: '  Code:#*create:#txt="press "+ts_image(s_keys)+" to doing something"#*draw:#draw_text_special(10, 400, txt, fa_left, fa_top, f_norm, -1)' -> "  Code:#*create:#txt=\"press \"+ts_image(s_keys)+\" to doing something\"#*draw:#draw_text_special(10, 400, txt, fa_left, fa_top, f_norm, -1)"
+
+Converting GML script: ${project_dir}\objects\o_test_tags2\Draw_0.gml
+Converted string - line 4: 'See list of tags below:#' -> "See list of tags below:#"
+Converted string - line 5: ' - ts_image(image, [w, h, type, X, Y]) - insert image in text.#*w, h - size of image, you can use "ts.original", "ts.standart" or integer(more than 0)#*type - "ts.img_scale" - scaling and keep proportions, "ts.img_fullscale" - scaling without proportions, "img_partscale" - scaling saving proportions and cut unnecessary parts, "img_part" - without scaling, drawing part of sprite in pos X, Y#' -> " - ts_image(image, [w, h, type, X, Y]) - insert image in text.#*w, h - size of image, you can use \"ts.original\", \"ts.standart\" or integer(more than 0)#*type - \"ts.img_scale\" - scaling and keep proportions, \"ts.img_fullscale\" - scaling without proportions, \"img_partscale\" - scaling saving proportions and cut unnecessary parts, \"img_part\" - without scaling, drawing part of sprite in pos X, Y#"
+Converted string - line 6: ' - ts_line([delta_sep]) - break line, delta_sep - distantion between lines#' -> " - ts_line([delta_sep]) - break line, delta_sep - distantion between lines#"
+Converted string - line 7: ' - ts_lineback() - break line without new line#' -> " - ts_lineback() - break line without new line#"
+Converted string - line 8: ' - ts_font(newfont) - set new font#' -> " - ts_font(newfont) - set new font#"
+Converted string - line 9: ' - ts_outline(bool, colour) - set outline#' -> " - ts_outline(bool, colour) - set outline#"
+Converted string - line 10: ' - ts_halign/valign(value) - set valign/halign of this/next lines#' -> " - ts_halign/valign(value) - set valign/halign of this/next lines#"
+Converted string - line 11: ' - ts_colour(colour) - set colour##' -> " - ts_colour(colour) - set colour##"
+Converted string - line 12: 'For insert tag you need just add it to string: txt="a5b{c"+ts_font(f_big)+"_de[f" and draw it' -> "For insert tag you need just add it to string: txt=\"a5b{c\"+ts_font(f_big)+\"_de[f\" and draw it"
+Converted string - line 15: 'a5b{c' -> "a5b{c"
+Converted string - line 15: '_de[f' -> "_de[f"
+
+Converting GML script: ${project_dir}\objects\o_test_tag_image\Draw_0.gml
+Converted string - line 4: 'Tag: ts_image' -> "Tag: ts_image"
+Converted string - line 6: 'txt="hello "+ts_image(s_world)+"!"' -> "txt=\"hello \"+ts_image(s_world)+\"!\""
+Converted string - line 6: 'hello ' -> "hello "
+Converted string - line 6: '!' -> "!"
+Converted string - line 8: 'txt="hello "+ts_image(s_world, ts.original, ts.original)+"!"' -> "txt=\"hello \"+ts_image(s_world, ts.original, ts.original)+\"!\""
+Converted string - line 8: 'hello ' -> "hello "
+Converted string - line 8: '!' -> "!"
+Converted string - line 10: 'txt="hello "+ts_image(s_world, 100, ts.standart, ts.img_fullscale)+"!"' -> "txt=\"hello \"+ts_image(s_world, 100, ts.standart, ts.img_fullscale)+\"!\""
+Converted string - line 10: 'hello ' -> "hello "
+Converted string - line 10: '!' -> "!"
+Converted string - line 12: 'txt="hello "+ts_image(s_world, ts.original, ts.standart, ts.img_partscale)+"!"' -> "txt=\"hello \"+ts_image(s_world, ts.original, ts.standart, ts.img_partscale)+\"!\""
+Converted string - line 12: 'hello ' -> "hello "
+Converted string - line 12: '!' -> "!"
+Converted string - line 14: 'txt="hello "+ts_image(s_world, 100, ts.standart, ts.img_scale)+"!"' -> "txt=\"hello \"+ts_image(s_world, 100, ts.standart, ts.img_scale)+\"!\""
+Converted string - line 14: 'hello ' -> "hello "
+Converted string - line 14: '!' -> "!"
+Converted string - line 16: 'txt="hello "+ts_image(s_world, ts.original, ts.standart, ts.img_part)+"!"' -> "txt=\"hello \"+ts_image(s_world, ts.original, ts.standart, ts.img_part)+\"!\""
+Converted string - line 16: 'hello ' -> "hello "
+Converted string - line 16: '!' -> "!"
+Converted string - line 18: 'txt="hello "+ts_image(s_world, ts.original, ts.standart, ts.img_part, 0, 30)+"!"' -> "txt=\"hello \"+ts_image(s_world, ts.original, ts.standart, ts.img_part, 0, 30)+\"!\""
+Converted string - line 18: 'hello ' -> "hello "
+Converted string - line 18: '!' -> "!"
+
+Converting GML script: ${project_dir}\objects\o_test_tag_line\Draw_0.gml
+Converted string - line 4: 'Tag: ts_line/ts_lineback' -> "Tag: ts_line/ts_lineback"
+Converted string - line 6: 'txt="Hello"+ts_line()+"world!"' -> "txt=\"Hello\"+ts_line()+\"world!\""
+Converted string - line 6: 'Hello' -> "Hello"
+Converted string - line 6: 'world!' -> "world!"
+Converted string - line 8: 'txt="Hello"+ts_line(20)+"world!"' -> "txt=\"Hello\"+ts_line(20)+\"world!\""
+Converted string - line 8: 'Hello' -> "Hello"
+Converted string - line 8: 'world!' -> "world!"
+Converted string - line 10: 'txt="Hello"+ts_lineback()+"world!"' -> "txt=\"Hello\"+ts_lineback()+\"world!\""
+Converted string - line 10: 'Hello' -> "Hello"
+Converted string - line 10: 'world!' -> "world!"
+Converted string - line 12: 'txt="Hello"+ts_lineback()+ts_halign(fa_right)+"world!"' -> "txt=\"Hello\"+ts_lineback()+ts_halign(fa_right)+\"world!\""
+Converted string - line 12: 'Hello' -> "Hello"
+Converted string - line 12: 'world!' -> "world!"
+Converted string - line 14: 'txt="Hello"+ts_lineback()+ts_halign(fa_center)+"world!"' -> "txt=\"Hello\"+ts_lineback()+ts_halign(fa_center)+\"world!\""
+Converted string - line 14: 'Hello' -> "Hello"
+Converted string - line 14: 'world!' -> "world!"
+Converted string - line 16: 'txt="Hello"+ts_lineback()+ts_halign(fa_center)+"world"+ts_lineback()+ts_halign(fa_right)+"!"' -> "txt=\"Hello\"+ts_lineback()+ts_halign(fa_center)+\"world\"+ts_lineback()+ts_halign(fa_right)+\"!\""
+Converted string - line 16: 'Hello' -> "Hello"
+Converted string - line 16: 'world' -> "world"
+
+Converting GML script: ${project_dir}\objects\o_test_tag_font\Draw_0.gml
+Converted string - line 4: 'Tag: ts_font' -> "Tag: ts_font"
+Converted string - line 6: 'txt="Hello "+ts_font(f_big)+"world!"' -> "txt=\"Hello \"+ts_font(f_big)+\"world!\""
+Converted string - line 6: 'Hello ' -> "Hello "
+Converted string - line 6: 'world!' -> "world!"
+Converted string - line 8: 'txt="Hello "+ts_font(f_norm_bold)+"world!"' -> "txt=\"Hello \"+ts_font(f_norm_bold)+\"world!\""
+Converted string - line 8: 'Hello ' -> "Hello "
+Converted string - line 8: 'world!' -> "world!"
+Converted string - line 10: 'txt="Hello "+ts_font(f_norm_italic)+"world!"' -> "txt=\"Hello \"+ts_font(f_norm_italic)+\"world!\""
+Converted string - line 10: 'Hello ' -> "Hello "
+Converted string - line 10: 'world!' -> "world!"
+
+Converting GML script: ${project_dir}\objects\o_test_tag_outline\Draw_0.gml
+Converted string - line 4: 'Tag: ts_outline' -> "Tag: ts_outline"
+Converted string - line 7: 'txt="Hello"+ts_outline(1)+" world!"' -> "txt=\"Hello\"+ts_outline(1)+\" world!\""
+Converted string - line 9: 'txt="Hello"+ts_outline(1, c_red)+" world!"' -> "txt=\"Hello\"+ts_outline(1, c_red)+\" world!\""
+
+Converting GML script: ${project_dir}\objects\o_test_tag_halign\Draw_0.gml
+Converted string - line 4: 'Tag: ts_halign/ts_valign' -> "Tag: ts_halign/ts_valign"
+Converted string - line 7: 'txt=ts_valign(fa_top)+"Hello"+ts_image(s_world, ts.original, ts.original)+"!"' -> "txt=ts_valign(fa_top)+\"Hello\"+ts_image(s_world, ts.original, ts.original)+\"!\""
+Converted string - line 9: 'txt=ts_valign(fa_center)+"Hello"+ts_image(s_world, ts.original, ts.original)+"!"' -> "txt=ts_valign(fa_center)+\"Hello\"+ts_image(s_world, ts.original, ts.original)+\"!\""
+Converted string - line 11: 'txt=ts_valign(fa_bottom)+"Hello"+ts_image(s_world, ts.original, ts.original)+"!"' -> "txt=ts_valign(fa_bottom)+\"Hello\"+ts_image(s_world, ts.original, ts.original)+\"!\""
+Converted string - line 14: 'txt=ts_halign(fa_right)+"Hello"+ts_line()+ts_halign(fa_center)+"world"+ts_line()+ts_halign(fa_left)+"!"' -> "txt=ts_halign(fa_right)+\"Hello\"+ts_line()+ts_halign(fa_center)+\"world\"+ts_line()+ts_halign(fa_left)+\"!\""
+
+Converting GML script: ${project_dir}\objects\o_test_tag_other\Draw_0.gml
+Converted string - line 4: 'Tag: ts_colour/ts_space/ts_shadow/ts_link/ts_uderline/ts_glow' -> "Tag: ts_colour/ts_space/ts_shadow/ts_link/ts_uderline/ts_glow"
+Converted string - line 7: 'txt=ts_colour(c_red)+"Hello"+ts_colour(c_yellow)+" world!"' -> "txt=ts_colour(c_red)+\"Hello\"+ts_colour(c_yellow)+\" world!\""
+Converted string - line 10: 'txt="Hello"+ts_space(150)+"world!"' -> "txt=\"Hello\"+ts_space(150)+\"world!\""
+Converted string - line 12: 'txt="Hello"+ts_shadow(1, 3, 3, c_black, 0.5)+" world!"' -> "txt=\"Hello\"+ts_shadow(1, 3, 3, c_black, 0.5)+\" world!\""
+Converted string - line 14: 'txt="to show message press "+ts_link(scr_test_message, c_green, c_red)+"ME"+ts_link()+' -> "txt=\"to show message press \"+ts_link(scr_test_message, c_green, c_red)+\"ME\"+ts_link()+"
+Converted string - line 14: '", and open"+ts_link("https://www.yoyogames.com/", c_green, c_red)+"page"' -> "\", and open\"+ts_link(\"https://www.yoyogames.com/\", c_green, c_red)+\"page\""
+Converted string - line 17: 'txt=ts_underline(1)+"underline"+ts_underline()+" "+ts_underline(3, c_red)+" UNDERLINE"' -> "txt=ts_underline(1)+\"underline\"+ts_underline()+\" \"+ts_underline(3, c_red)+\" UNDERLINE\""
+Converted string - line 20: 'txt=ts_glow(c_red)+"green"+ts_glow()+" "+ts_glow(c_green)+"red"' -> "txt=ts_glow(c_red)+\"green\"+ts_glow()+\" \"+ts_glow(c_green)+\"red\""
+
+Converting GML script: ${project_dir}\objects\o_test_keyword\Create_0.gml
+Converted string - line 3: '[coin]' -> "[coin]"
+Converted string - line 4: '[big]' -> "[big]"
+Converted string - line 5: '[norm]' -> "[norm]"
+Converted string - line 6: '[white]' -> "[white]"
+Converted string - line 7: '[red]' -> "[red]"
+Converted string - line 8: '[/]' -> "[/]"
+
+Converting GML script: ${project_dir}\objects\o_test_keyword\Draw_0.gml
+Converted string - line 4: 'You can use keywords.#For example, replace all "[coin]" in string on ts_image(s_coin) using#ts_add_keyword("[coin]", ts_image(s_coin))#You can replace it using ts_replace_keyword("[coin]", ts_image(s_coin, ts.original, ts.original)) and image will change size' -> "You can use keywords.#For example, replace all \"[coin]\" in string on ts_image(s_coin) using#ts_add_keyword(\"[coin]\", ts_image(s_coin))#You can replace it using ts_replace_keyword(\"[coin]\", ts_image(s_coin, ts.original, ts.original)) and image will change size"
+Converted string - line 7: 'txt="I have 100[сoin]"' -> "txt=\"I have 100[сoin]\""
+Converted string - line 10: 'I add some keywords: [coin], [big], [norm], [white], [red] and [/], input it on keyboard with some text(for example, input [red]I[white] have [red]99[white][coin])' -> "I add some keywords: [coin], [big], [norm], [white], [red] and [/], input it on keyboard with some text(for example, input [red]I[white] have [red]99[white][coin])"
+Converted string - line 12: 'keyboard_string: ' -> "keyboard_string: "
+
+Converting GML script: ${project_dir}\objects\o_test_text\Create_0.gml
+Converted string - line 2: '[-#-]' -> "[-#-]"
+Converted string - line 3: '[#--]' -> "[#--]"
+Converted string - line 4: '[--#]' -> "[--#]"
+Converted string - line 5: '[/]' -> "[/]"
+Converted string - line 6: '[//]' -> "[//]"
+Converted string - line 7: '[white]' -> "[white]"
+Converted string - line 8: '[red]' -> "[red]"
+Converted string - line 9: '<outl>' -> "<outl>"
+Converted string - line 10: '</outl>' -> "</outl>"
+Converted string - line 11: '[big]' -> "[big]"
+Converted string - line 12: '[bold]' -> "[bold]"
+Converted string - line 13: '[norm]' -> "[norm]"
+Converted string - line 14: '[earth]' -> "[earth]"
+Converted string - line 15: '[coin]' -> "[coin]"
+Converted string - line 16: '/s' -> "/s"
+Converted string - line 20: '[-#-][big]Hello, it is [red]TEXT[white][/]' -> "[-#-][big]Hello, it is [red]TEXT[white][/]"
+Converted string - line 21: '[#--][norm]In <outl>literary</outl> theory, a text is any object that can be "[bold]read[norm]". ' -> "[#--][norm]In <outl>literary</outl> theory, a text is any object that can be \"[bold]read[norm]\". "
+Converted string - line 22: 'I know, that we live on planet: [earth] and we can fly to space(if you have[coin])[/]' -> "I know, that we live on planet: [earth] and we can fly to space(if you have[coin])[/]"
+Converted string - line 23: '[-#-][big][red]END[/][white]' -> "[-#-][big][red]END[/][white]"
+Converted string - line 24: '[#--]Look at this table:[/][norm]' -> "[#--]Look at this table:[/][norm]"
+Converted string - line 25: 'money[//]/s 10[coin][//]/s/s OK[/]' -> "money[//]/s 10[coin][//]/s/s OK[/]"
+Converted string - line 26: 'score[//]/s 175[//]/s/s [red]ERROR[white][/]' -> "score[//]/s 175[//]/s/s [red]ERROR[white][/]"
+Converted string - line 27: 'This text is ' -> "This text is "
+Converted string - line 27: 'important' -> "important"
+Converted string - line 27: '!' -> "!"
+
+Converting GML script: ${project_dir}\objects\o_test_other\Create_0.gml
+Converted description /// @description  CREATE
+Converted string - line 6: '<link=' -> "<link="
+Converted string - line 6: '>' -> ">"
+Converted string - line 7: '</link' -> "</link"
+Converted string - line 7: '>' -> ">"
+Converted string - line 8: '<imgs:' -> "<imgs:"
+Converted string - line 8: '>' -> ">"
+Converted string - line 9: '<imgsB:' -> "<imgsB:"
+Converted string - line 9: '>' -> ">"
+Converted string - line 11: 'coin' -> "coin"
+Converted string - line 12: 'cherry' -> "cherry"
+Converted string - line 13: 'cherrs' -> "cherrs"
+Converted string - line 14: 'earth' -> "earth"
+Converted string - line 15: 'keys' -> "keys"
+Converted string - line 18: 'Hello, i am <imgs:cherry|>' -> "Hello, i am <imgs:cherry|>"
+Converted string - line 19: 'There is my brothers:<imgsB:cherrs|>' -> "There is my brothers:<imgsB:cherrs|>"
+Converted string - line 20: 'We ' -> "We "
+Converted string - line 20: 'live' -> "live"
+Converted string - line 20: ' on <imgs:earth|>. Using "usertags" you can ' -> " on <imgs:earth|>. Using \"usertags\" you can "
+Converted string - line 21: 'create your own tags, thats very easy to modify any text, ' -> "create your own tags, thats very easy to modify any text, "
+Converted string - line 22: 'and you can allow players insert tags in nicknames ' -> "and you can allow players insert tags in nicknames "
+Converted string - line 23: 'or in chat messages. Press on <link=scr_test_message|>me</link> to show' -> "or in chat messages. Press on <link=scr_test_message|>me</link> to show"
+Converted string - line 23: ' message' -> " message"
+
+Converting GML script: ${project_dir}\objects\o_test_wordwrapper\Create_0.gml
+Converted description /// @description  CREATE
+Converted string - line 7: '[c]' -> "[c]"
+Converted string - line 11: 'CHERRY' -> "CHERRY"
+Converted string - line 12: 'Many cherries[c] are members of the subgenus Cerasus, which is distinguished by having the flowers in small corymbs of several together, and by having smooth fruit[c][c][c] with only a weak groove along one side, or no groove.' -> "Many cherries[c] are members of the subgenus Cerasus, which is distinguished by having the flowers in small corymbs of several together, and by having smooth fruit[c][c][c] with only a weak groove along one side, or no groove."
+Converted string - line 13: 'The English word cherry derives from Old Northern French or Norman cherise from the Latin cerasum, referring to an ancient Greek region, Kerasous near Giresun, Turkey, from which cherries were first thought to be exported to Europe.' -> "The English word cherry derives from Old Northern French or Norman cherise from the Latin cerasum, referring to an ancient Greek region, Kerasous near Giresun, Turkey, from which cherries were first thought to be exported to Europe."
+
+Converting GML script: ${project_dir}\objects\o_testing_area\Create_0.gml
+Converted string - line 3: 'START' -> "START"
+Converted string - line 4: 'ANGRY' -> "ANGRY"
+Converted string - line 5: ', ' -> ", "
+Converted string - line 5: 'waaaaave' -> "waaaaave"
+Converted string - line 5: ', ' -> ", "
+Converted string - line 5: 'colour' -> "colour"
+Converted string - line 5: ', ' -> ", "
+Converted string - line 6: 'AAAAAAAAAAAAA' -> "AAAAAAAAAAAAA"
+Converted string - line 7: 'press on ' -> "press on "
+Converted string - line 7: 'ME' -> "ME"
+Converted string - line 8: ' to show message' -> " to show message"

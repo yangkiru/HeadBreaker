@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_finger",
+    "path": "sprites/spr_finger/spr_finger.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,20 +24,9 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"weapon","path":"objects/weapon/weapon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"hit_effect","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
         "GMObject",
       ],"resourceVersion":"1.0","name":"effect","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"0.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"crit_chance","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1.5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"crit_damage","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":6,"value":"1, 1, 1, 1, 1, 1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
-      ],"multiselect":true,"filters":[],"resourceVersion":"1.0","name":"extra_damage","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
