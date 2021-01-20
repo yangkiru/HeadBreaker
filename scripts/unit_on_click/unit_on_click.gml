@@ -7,10 +7,10 @@ function unit_on_click(obj){
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
 		t = 0;
 		critical = random_range(0, 1);
-		is_critical = critical < global.current_weapon.data.crit_chance;
-		extra_damage = global.current_weapon.data.extra_damage[type];
-		damage = global.current_weapon.data.damage * extra_damage;
-		if (is_critical) damage *= global.current_weapon.data.crit_damage;
+		is_critical = critical < weapon.data.crit_chance;
+		extra_damage = weapon.data.extra_damage[type];
+		damage = weapon.data.damage * extra_damage;
+		if (is_critical) damage *= weapon.data.crit_damage;
 		global.hp -= damage;
 		// 죽을 때
 		if (global.hp < 0) { 

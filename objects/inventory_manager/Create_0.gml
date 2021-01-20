@@ -3,5 +3,4 @@
 
 global.item_inventory = ds_list_create();
 global.weapon_inventory = ds_list_create();
-global.current_weapon = noone;
 add_to_inventory(new Finger());

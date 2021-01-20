@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spawn_weapon",
+  "name": "set_weapon",
   "tags": [],
   "resourceType": "GMScript",
 }

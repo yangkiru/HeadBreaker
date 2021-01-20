@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-data = noone;
+show_debug_message(instance_exists(initial_manager));
