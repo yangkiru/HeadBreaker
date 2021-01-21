@@ -3,10 +3,10 @@ function Hat_Trick() : Artifact() constructor {
 	price = 33;
 	spr = spr_hat_trick;
 	OnInit = function () {
-		ds_list_add(global.on_click_list, self);
+		ds_list_add(global.on_click_before, self);
 		global.hat_trick = ds_list_create();
 	}
-	OnClick = function (opponent) {
+	OnClickBefore = function (opponent) {
 		// Fail
 		if (ds_list_find_index(global.hat_trick, opponent) != -1) {
 			ds_list_clear(global.hat_trick);
@@ -19,6 +19,7 @@ function Hat_Trick() : Artifact() constructor {
 		if(ds_list_size(global.hat_trick) == 3) {
 			show_debug_message("Hat-Trick Success");
 			weapon.data.extra_damage += weapon.data.damage * 2;
+			ds_list_clear(global.hat_trick);
 		}
 	}
 }

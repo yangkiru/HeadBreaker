@@ -6,6 +6,9 @@ function unit_on_click(obj){
 		
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
 		t = 0;
+		for (i = 0; i < ds_list_size(global.on_click_before); i++){
+			global.on_click_before[| i].OnClickBefore(obj);
+		}
 		weapon.data.OnClick(obj);
 		
 		if (global.hp < 0) { 

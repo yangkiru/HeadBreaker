@@ -3,4 +3,4 @@
 
 ds_list_destroy(global.item_inventory);
 ds_list_destroy(global.weapon_inventory);
-ds_list_destroy(global.on_click_list);
+ds_list_destroy(global.on_click_before);
