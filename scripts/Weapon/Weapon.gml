@@ -18,6 +18,6 @@ function Weapon() : Item() constructor {
 		global.hp -= result;
 		opponent.hp -= result;
 
-		set_damage_text(result, critical < crit_chance);
+		set_damage_text(result, critical < crit_chance, mouse_x, mouse_y + 20);
 	}
 } 

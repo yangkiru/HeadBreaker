@@ -9,4 +9,5 @@ global.coin = 0;
 global.last_hit[0] = noone;
 global.last_hit[1] = noone;
 global.last_hit[2] = noone;
+
 room_goto_next();

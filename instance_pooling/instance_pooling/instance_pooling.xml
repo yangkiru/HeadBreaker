@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Platform="Windows" Runtime="VM" Device="Default">
+	<Desktop x="-8" y="-8" width="1920" height="1017" id="19" title="BreakHead - GameMaker Studio 2" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="True" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[309, 6591]" workspace_scale="1">
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\UNIT_Type\UNIT_Type.gml" resource="UNIT_Type" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="359dpi_px" top="811dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\unit_on_click_change_spr\unit_on_click_change_spr.gml" resource="unit_on_click_change_spr" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="359dpi_px" top="2071dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\unit_on_click\unit_on_click.gml" resource="unit_on_click" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="493dpi_px" top="1441dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Weapon\Weapon.gml" resource="Weapon" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="1293dpi_px" top="4591dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Item\Item.gml" resource="Item" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="359dpi_px" top="3961dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Artifact\Artifact.gml" resource="Artifact" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="308.9999dpi_px" top="4632dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Blow_Hammer\Blow_Hammer.gml" resource="Blow_Hammer" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="308.9999dpi_px" top="7314dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="260dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Hat_Trick\Hat_Trick.gml" resource="Hat_Trick" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="359dpi_px" top="-109dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Skill\Skill.gml" resource="Skill" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="359dpi_px" top="3331dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\Mask_of_CThun\Mask_of_CThun.gml" resource="Mask_of_CThun" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="308.9999dpi_px" top="6644dpi_px" />
+					</DocumentWindow>
+				</Module>
+			</Workspace>
+		</Workspaces>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+			<RoomEditor>
+				<LayerProperties left="20dpi_px" right="" top="" bottom="350dpi_px" width="260dpi_px" height="330dpi_px" flags="Default" title="Skills Layer Properties - Room1" localise_title="RoomEditor_LayerProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="1" dock_proportion="0.8024417" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="419d4e6e-545f-46c8-81ed-90331bd12c88" />
+				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - Room1" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1.398446" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="419d4e6e-545f-46c8-81ed-90331bd12c88" />
+				<RoomProperties left="10dpi_px" right="" top="125dpi_px" bottom="" width="300dpi_px" height="240dpi_px" flags="Default" title="Properties - Room1" localise_title="RoomEditor_RoomProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="2" dock_proportion="0.799112" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="419d4e6e-545f-46c8-81ed-90331bd12c88" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+	</Modules>
+</Project>
