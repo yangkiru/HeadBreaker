@@ -3,7 +3,7 @@
 function unit_on_click_change_spr(obj){
 	if (instance_exists(obj) && obj.on_hit_spr != noone) {
 			obj.sprite_index = obj.on_hit_spr;
-			obj.t_hit_spr = 0.5;
+			obj.t_hit_spr = 0.8;
 			obj.alarm[2] = 1;
 	}
 }

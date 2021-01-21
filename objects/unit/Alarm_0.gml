@@ -3,10 +3,10 @@
 t1 += delta_time / 1000000;
 if (t1 > decrease_time1) {
 	t1 = 0;
-	image_xscale = 1;
-	image_yscale = image_xscale;
+	image_xscale = original_xscale;
+	image_yscale = original_yscale;
 } else {
-	image_xscale = lerp(image_xscale, 1, t1);
-	image_yscale = image_xscale;
+	image_xscale = lerp(image_xscale, original_xscale, t1);
+	image_yscale = lerp(image_yscale, original_yscale, t1);
 	alarm[0] = 1;
 }

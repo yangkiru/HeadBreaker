@@ -5,7 +5,7 @@ function unit_on_click(obj){
 		if (global.is_die) return;
 		
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
-		t = 0;
+		t1 = 0;
 		for (i = 0; i < ds_list_size(global.on_click_before); i++){
 			global.on_click_before[| i].OnClickBefore(obj);
 		}
@@ -15,16 +15,16 @@ function unit_on_click(obj){
 			global.hp = 0;
 			global.is_die = true;
 		}
-
-		image_xscale += 0.1;
-		image_yscale = image_xscale;
+		
+		image_xscale *= 1.1;
+		image_yscale *= 1.1;
 
 		// 힛 이펙트
 		if (effect != noone){
-			effect.t1 = 0;
+			effect.t = 0;
 			effect.visible = true;
-			effect.image_xscale += 0.1;
-			effect.image_yscale = effect.image_xscale;
+			effect.image_xscale *= 1.1;
+			effect.image_yscale *= 1.1;
 			effect.alarm[0] = 1;
 		}
 		// 맞은 스프라이트
