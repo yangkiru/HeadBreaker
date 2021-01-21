@@ -11,10 +11,12 @@ function Hat_Trick() : Artifact() constructor {
 		if (ds_list_find_index(global.hat_trick, opponent) != -1) {
 			ds_list_clear(global.hat_trick);
 			show_debug_message("Hat-Trick Fail");
+			hat_trick.image_index = 0;
 			return;
 		}
 		ds_list_add(global.hat_trick, opponent);
 		show_debug_message("Hat-Trick " + string(ds_list_size(global.hat_trick)));
+		hat_trick.image_index = ds_list_size(global.hat_trick);
 		
 		if(ds_list_size(global.hat_trick) == 3) {
 			show_debug_message("Hat-Trick Success");
