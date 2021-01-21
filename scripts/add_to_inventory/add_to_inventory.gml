@@ -6,4 +6,5 @@ function add_to_inventory(item_data){
 		set_weapon(item_data);
 	}
 	else ds_list_add(global.item_inventory, item_data);
+	item_data.OnInit();
 }

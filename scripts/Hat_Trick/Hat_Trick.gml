@@ -3,7 +3,7 @@ function Hat_Trick() : Artifact() constructor {
 	price = 33;
 	spr = spr_hat_trick;
 	OnInit = function () {
-		global.on
+		ds_list_add(global.on_click_list, self);
 		global.hat_trick = ds_list_create();
 	}
 	OnClick = function (opponent) {

@@ -14,4 +14,6 @@ function Item() constructor {
 	sale = 0;
 	is_weapon = false;
 	spr = noone;
+	OnInit = function () {}
+	OnClick = function () {}
 }
