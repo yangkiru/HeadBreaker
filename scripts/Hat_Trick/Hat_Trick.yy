@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Scripts/Items/Weapons.yy",
+    "name": "Artifacts",
+    "path": "folders/Scripts/Items/Artifacts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Blow_Hammer",
+  "name": "Hat_Trick",
   "tags": [],
   "resourceType": "GMScript",
 }
