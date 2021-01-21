@@ -6,27 +6,14 @@ function unit_on_click(obj){
 		
 		alarm[0] = 1;	/// 스케일이 돌아오는 알람
 		t = 0;
-		critical = random_range(0, 1);
-		is_critical = critical < weapon.data.crit_chance;
-		extra_damage = weapon.data.extra_damage[type];
-		damage = weapon.data.damage * extra_damage;
-		if (is_critical) damage *= weapon.data.crit_damage;
-		global.hp -= damage;
-		// 죽을 때
+		weapon.data.OnClick(obj);
+		
 		if (global.hp < 0) { 
 			global.hp = 0;
 			global.is_die = true;
 		}
-		show_debug_message(object_get_name(obj.object_index) + string(hp));
-		hp -= damage;
-		show_debug_message(string(hp));
-		global.coin += 1;
 
-		damage_text.damage = damage;
-		damage_text.is_critical = is_critical;
-		damage_text.alarm[0] = 1;
-
-		image_xscale += 0.1 * extra_damage;
+		image_xscale += 0.1;
 		image_yscale = image_xscale;
 
 		// 힛 이펙트

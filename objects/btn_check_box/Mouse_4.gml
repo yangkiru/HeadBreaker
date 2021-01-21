@@ -3,7 +3,7 @@
 
 if (check != noone && !check.visible) {
 	// 구매 불가능
-	if (target == noone || target.data.price > global.coin) {
+	if (target == noone || target.data == noone || target.data.price > global.coin) {
 		show_debug_message("구매 불가능");
 		return;
 	}
@@ -13,4 +13,5 @@ if (check != noone && !check.visible) {
 	global.coin -= target.data.price;
 	show_debug_message(target.data);
 	add_to_inventory(target.data);
+	is_bought = true;
 }
