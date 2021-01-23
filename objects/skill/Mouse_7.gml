@@ -3,3 +3,4 @@
 
 if (data == noone) return;
 show_debug_message("skill actived");
+data.OnActive();

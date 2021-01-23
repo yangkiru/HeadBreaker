@@ -4,3 +4,5 @@
 original_xscale = image_xscale;
 original_yscale = image_yscale;
 unit_on_die_param = noone;
+
+ds_list_add(global.alive_units, self);

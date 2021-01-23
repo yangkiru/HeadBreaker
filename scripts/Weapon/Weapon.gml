@@ -1,5 +1,6 @@
 function Weapon() : Item() constructor {
 	damage = 0;
+	type = ITEM_Type.Weapon;
 	extra_damage = 0;
 	is_weapon = true;
 	crit_chance = 0.1;

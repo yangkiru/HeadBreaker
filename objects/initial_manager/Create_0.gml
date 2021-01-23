@@ -9,5 +9,5 @@ global.coin = 0;
 global.last_hit[0] = noone;
 global.last_hit[1] = noone;
 global.last_hit[2] = noone;
-
+global.alive_units = ds_list_create();
 room_goto_next();

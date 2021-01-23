@@ -1,18 +1,19 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-enum ITEM
+enum ITEM_Type
 {
-	Finger = 0,
-	Blow_Hammer,
-	Exscalibur	
+	Nothing = 0,
+	Weapon,
+	Artifact,
+	Skill
 }
 
 function Item() constructor {
 	name = "";
 	price = 0;
 	sale = 0;
-	is_weapon = false;
+	type = ITEM_Type.Nothing;
 	spr = noone;
 	OnInit = function() {}
 	OnClickBefore = function() {}

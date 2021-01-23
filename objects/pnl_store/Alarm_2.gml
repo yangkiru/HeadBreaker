@@ -17,9 +17,10 @@ if(!ds_list_empty(item_list))
 ds_list_add(item_list, new Blow_Hammer());
 ds_list_add(item_list, new Excalibur());
 ds_list_add(item_list, new Hat_Trick());
+ds_list_add(item_list, new Mask_of_CThun());
 
 ds_list_shuffle(item_list);
 
-for (i = 0; i < ds_list_size(item_list); i++){
+for (i = 0; i < min(ds_list_size(store_list), ds_list_size(item_list)); i++){
 	store_list[| i].data = item_list[| i];
 }

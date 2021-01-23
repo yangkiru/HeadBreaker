@@ -8,10 +8,8 @@ if (check != noone && !check.visible) {
 		return;
 	}
 	// 구매
-	show_debug_message("구매");
-	check.visible = true;
-	global.coin -= target.data.price;
-	show_debug_message(target.data);
-	add_to_inventory(target.data);
-	is_bought = true;
+	is_bought = add_to_inventory(target.data);
+	// 구매 성공
+	if (is_bought) global.coin -= target.data.price;
+	check.visible = is_bought;
 }
