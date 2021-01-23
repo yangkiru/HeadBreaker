@@ -3,3 +3,4 @@
 
 original_xscale = image_xscale;
 original_yscale = image_yscale;
+unit_on_die_param = noone;

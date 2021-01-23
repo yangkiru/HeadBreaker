@@ -6,18 +6,18 @@ function Weapon() : Item() constructor {
 	crit_damage = 2;
 	
 	OnClick = function(opponent) {
-		OnDamage(opponent);
 		global.coin += 1;
 	}
 
-	OnDamage = function (opponent) {
+	GetDamage = function (opponent, is_critical) {
 		critical = random_range(0, 1);
 		result = damage + extra_damage;
 		extra_damage = 0;
-		if (critical < crit_chance) result *= crit_damage;
-		global.hp -= result;
-		opponent.hp -= result;
+		if (is_critical != noone) {
+			is_critical[@ 0] = critical < crit_chance;
+			if (is_critical[0]) result *= crit_damage;
+		}
 
-		set_damage_text(result, critical < crit_chance, mouse_x, mouse_y + 20);
+		return result;
 	}
 } 
