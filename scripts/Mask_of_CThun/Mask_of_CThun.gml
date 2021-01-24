@@ -4,6 +4,7 @@ function Mask_of_CThun() : Skill() constructor{
 	name = "Mask of C'Thun";
 	spr = spr_hat_trick;
 	price = 7;
+	cool_time = 3;
 	
 	OnInit = function() {
 		global.cthun_list = ds_list_create();
