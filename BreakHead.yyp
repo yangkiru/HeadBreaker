@@ -24,6 +24,7 @@
     {"id":{"name":"hit_effect_spr","path":"sprites/hit_effect_spr/hit_effect_spr.yy",},"order":0,},
     {"id":{"name":"pool_remove_object","path":"scripts/pool_remove_object/pool_remove_object.yy",},"order":9,},
     {"id":{"name":"mouth","path":"sprites/mouth/mouth.yy",},"order":5,},
+    {"id":{"name":"add_money","path":"scripts/add_money/add_money.yy",},"order":8,},
     {"id":{"name":"Initial_Room","path":"rooms/Initial_Room/Initial_Room.yy",},"order":1,},
     {"id":{"name":"Weapon","path":"scripts/Weapon/Weapon.yy",},"order":3,},
     {"id":{"name":"hat_trick","path":"objects/hat_trick/hat_trick.yy",},"order":0,},

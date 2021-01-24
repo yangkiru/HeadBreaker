@@ -1,15 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function damage_to_unit(_unit, damage, is_critical) {
+function damage_to_unit(_unit, damage, is_critical, x, y) {
 	if (global.is_die) return;
-		
 	_unit.alarm[0] = 1;	/// 스케일이 돌아오는 알람
 	_unit.t1 = 0;
 	
 	_unit.hp -= damage;
 	global.hp -= damage;
-	
-	set_damage_text(damage, is_critical, mouse_x, mouse_y + 20);
+	set_damage_text(damage, is_critical, x, y - 20);
 	
 	check_unit_die(_unit);
 	

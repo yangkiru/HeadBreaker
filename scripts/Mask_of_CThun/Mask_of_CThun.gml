@@ -12,7 +12,7 @@ function Mask_of_CThun() : Skill() constructor{
 	
 	OnActive = function() {
 		for (i = 0; i < 10; i++;) {
-			rnd = irandom_range(0, ds_list_size(global.alive_units));
+			rnd = irandom_range(0, ds_list_size(global.alive_units) - 1);
 			ds_list_add(global.cthun_list, global.alive_units[| rnd]);
 		}
 		mask_of_cthun.alarm[0] = 1;

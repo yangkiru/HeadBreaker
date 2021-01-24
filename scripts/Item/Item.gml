@@ -17,5 +17,4 @@ function Item() constructor {
 	spr = noone;
 	OnInit = function() {}
 	OnClickBefore = function() {}
-	OnClick = function() {}
 }

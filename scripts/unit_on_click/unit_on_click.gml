@@ -10,8 +10,8 @@ function unit_on_click(_unit) {
 	}
 	is_critical[0] = false;
 	damage = weapon.data.GetDamage(_unit, is_critical);
-	damage_to_unit(_unit, damage, is_critical[0]);
-	weapon.data.OnClick(_unit);
+	damage_to_unit(_unit, damage, is_critical[0], mouse_x, mouse_y);
+	add_money(weapon.data.click_money);
 		
 	// 클릭 사운드
 	audio_sound_pitch(hit_sfx, random_range(0.8, 1.2));
