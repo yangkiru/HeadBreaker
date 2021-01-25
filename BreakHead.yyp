@@ -95,6 +95,7 @@
     {"id":{"name":"spr_hat_trick","path":"sprites/spr_hat_trick/spr_hat_trick.yy",},"order":1,},
     {"id":{"name":"sp_zigzag","path":"sprites/sp_zigzag/sp_zigzag.yy",},"order":6,},
     {"id":{"name":"f_norm","path":"fonts/f_norm/f_norm.yy",},"order":6,},
+    {"id":{"name":"cthun_ball","path":"objects/cthun_ball/cthun_ball.yy",},"order":2,},
     {"id":{"name":"spr_paper","path":"sprites/spr_paper/spr_paper.yy",},"order":0,},
     {"id":{"name":"spr_x","path":"sprites/spr_x/spr_x.yy",},"order":1,},
     {"id":{"name":"pool_contains_object","path":"scripts/pool_contains_object/pool_contains_object.yy",},"order":8,},

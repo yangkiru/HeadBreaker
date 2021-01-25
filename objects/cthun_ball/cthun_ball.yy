@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "blank_head",
+    "path": "sprites/blank_head/blank_head.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,7 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"mask_of_cthun","path":"objects/mask_of_cthun/mask_of_cthun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"unit","path":"objects/unit/unit.yy",},"parent":{"name":"cthun_ball","path":"objects/cthun_ball/cthun_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"cthun_ball","path":"objects/cthun_ball/cthun_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -27,7 +31,7 @@
     "path": "folders/Objects/Items/Skills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mask_of_cthun",
+  "name": "cthun_ball",
   "tags": [],
   "resourceType": "GMObject",
 }

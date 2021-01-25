@@ -157,6 +157,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"skill","path":"objects/skill/skill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.15,"scaleY":0.15,"imageIndex":3,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":816.0,"y":64.0,"resourceVersion":"1.0","name":"i_skill_6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"skill","path":"objects/skill/skill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.15,"scaleY":0.15,"imageIndex":3,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":64.0,"resourceVersion":"1.0","name":"i_skill_7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"skill","path":"objects/skill/skill.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.15,"scaleY":0.15,"imageIndex":3,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":976.0,"y":64.0,"resourceVersion":"1.0","name":"i_skill_8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"cthun_ball","path":"objects/cthun_ball/cthun_ball.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1,"scaleY":0.1,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":256.0,"resourceVersion":"1.0","name":"inst_78828922","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Skills","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Damage_Texts","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -249,6 +250,7 @@
     {"name":"i_skill_7","path":"rooms/Room1/Room1.yy",},
     {"name":"i_skill_8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_643FC50C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_78828922","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
