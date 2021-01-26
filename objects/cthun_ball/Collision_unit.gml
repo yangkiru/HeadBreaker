@@ -1,7 +1,6 @@
-/// @description Insert description here
+/// @description OnHit
 // You can write your code in this editor
 
-if (!damaged && other == target) {
-	damaged = true;
-	damage_to_unit(other, 1, noone, x, y);
+if (!is_damaged) {
+	is_damaged = true;
 }

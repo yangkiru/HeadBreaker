@@ -3,6 +3,6 @@
 
 if (data == noone || cool_time > 0) return;
 show_debug_message("skill actived");
-data.OnActive();
+data.OnActive(self);
 cool_time = data.cool_time;
 max_cool_time = data.cool_time;
