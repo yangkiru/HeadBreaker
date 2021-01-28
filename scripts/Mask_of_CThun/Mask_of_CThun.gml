@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Mask_of_CThun() : Skill() constructor{
 	name = "Mask of C'Thun";
-	spr = spr_hat_trick;
+	spr = spr_mask_of_cthun;
 	price = 7;
 	cool_time = 3;
 	

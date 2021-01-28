@@ -106,6 +106,7 @@
     {"id":{"name":"spr_excalibur","path":"sprites/spr_excalibur/spr_excalibur.yy",},"order":0,},
     {"id":{"name":"unit_nose","path":"objects/unit_nose/unit_nose.yy",},"order":2,},
     {"id":{"name":"destroy_object","path":"scripts/destroy_object/destroy_object.yy",},"order":0,},
+    {"id":{"name":"spr_mask_of_cthun","path":"sprites/spr_mask_of_cthun/spr_mask_of_cthun.yy",},"order":1,},
     {"id":{"name":"coin_store","path":"objects/coin_store/coin_store.yy",},"order":5,},
     {"id":{"name":"unit_body","path":"objects/unit_body/unit_body.yy",},"order":5,},
     {"id":{"name":"hp_rail","path":"objects/hp_rail/hp_rail.yy",},"order":2,},
