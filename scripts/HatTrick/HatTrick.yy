@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Items/Artifacts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Hat_Trick",
+  "name": "HatTrick",
   "tags": [],
   "resourceType": "GMScript",
 }

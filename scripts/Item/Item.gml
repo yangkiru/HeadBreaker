@@ -16,5 +16,4 @@ function Item() constructor {
 	type = ITEM_Type.Nothing;
 	spr = noone;
 	OnInit = function() {}
-	OnClickBefore = function() {}
 }

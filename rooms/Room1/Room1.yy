@@ -162,7 +162,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"coin_text","path":"objects/coin_text/coin_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":276.0,"y":87.0,"resourceVersion":"1.0","name":"inst_533A9663","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"damage_text","path":"objects/damage_text/damage_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":288.0,"resourceVersion":"1.0","name":"inst_35647E22","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"control","path":"objects/control/control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_22E51D16","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"btn_store","path":"objects/btn_store/btn_store.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_16809183","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"coin_hud","path":"objects/coin_hud/coin_hud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4,"scaleY":0.4,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":225.0,"y":65.0,"resourceVersion":"1.0","name":"inst_18F1D42A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"weapon","path":"objects/weapon/weapon.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4,"scaleY":0.4,"imageIndex":0,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":32.0,"resourceVersion":"1.0","name":"inst_3054200B","tags":[],"resourceType":"GMRInstance",},
@@ -196,7 +195,6 @@
     {"name":"i_head_effect","path":"rooms/Room1/Room1.yy",},
     {"name":"i_body_effect","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_35647E22","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_22E51D16","path":"rooms/Room1/Room1.yy",},
     {"name":"i_eye_1","path":"rooms/Room1/Room1.yy",},
     {"name":"i_eye_2","path":"rooms/Room1/Room1.yy",},
     {"name":"i_mouth","path":"rooms/Room1/Room1.yy",},

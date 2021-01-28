@@ -29,9 +29,9 @@ function damage_to_unit(_unit, damage, is_critical, x, y) {
 	}
 	
 	// 힛 스프라이트
-	unit_on_click_change_spr(_unit);
+	unit_on_hit_change_spr(_unit);
 	
 	for(i = 0; i < array_length_1d(_unit.list_on_hit_change_obj); i++) {
-		unit_on_click_change_spr(_unit.list_on_hit_change_obj[i]);
+		unit_on_hit_change_spr(_unit.list_on_hit_change_obj[i]);
 	}
 }

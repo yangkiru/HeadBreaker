@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description 쿨타임
 // You can write your code in this editor
 if (cool_time > 0) {
 	cool_time -= delta_time / 1000000;

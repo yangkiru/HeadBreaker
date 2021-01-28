@@ -17,4 +17,15 @@ function Weapon() : Item() constructor {
 
 		return result;
 	}
+	
+	OnLeftDown = noone;
+	
+	OnLeftPressed = function () {
+		global.clicked_unit = top_instance_position(mouse_x, mouse_y, unit);
+		if instance_exists(global.clicked_unit) {
+			unit_on_hit(global.clicked_unit);
+		}
+	}
+	
+	OnLeftReleased = noone;
 } 

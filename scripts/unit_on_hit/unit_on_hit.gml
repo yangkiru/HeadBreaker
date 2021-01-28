@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function unit_on_click(_unit) {
+function unit_on_hit(_unit) {
 	if (global.is_die) return;
 		
 	alarm[0] = 1;	/// 스케일이 돌아오는 알람
@@ -9,8 +9,8 @@ function unit_on_click(_unit) {
 		global.on_click_before[| i].OnClickBefore(_unit);
 	}
 	is_critical[0] = false;
-	damage = weapon.data.GetDamage(_unit, is_critical);
-	damage_to_unit(_unit, damage, is_critical[0], mouse_x, mouse_y);
+	_damage = weapon.data.GetDamage(_unit, is_critical);
+	damage_to_unit(_unit, _damage, is_critical[0], mouse_x, mouse_y);
 	add_money(weapon.data.click_money);
 		
 	// 클릭 사운드

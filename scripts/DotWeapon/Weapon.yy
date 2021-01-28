@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Hit",
-    "path": "folders/Scripts/Unit/Hit.yy",
+    "name": "Weapons",
+    "path": "folders/Scripts/Items/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "top_instance_position",
+  "name": "Weapon",
   "tags": [],
   "resourceType": "GMScript",
 }

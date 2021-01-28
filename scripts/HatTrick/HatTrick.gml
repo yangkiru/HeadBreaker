@@ -1,4 +1,4 @@
-function Hat_Trick() : Artifact() constructor {
+function HatTrick() : Artifact() constructor {
 	name = "Hat-Trick";
 	price = 33;
 	spr = spr_hat_trick;

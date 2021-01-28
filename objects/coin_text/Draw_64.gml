@@ -4,4 +4,4 @@ draw_set_colour($000000);
 draw_set_halign(fa_left);
 draw_set_valign(fa_center);
 draw_set_font(fn_daughter_30);
-draw_text(x, y, global.coin);
+draw_text(x, y, frac(global.coin) > 0 ? string_format(global.coin, 0, 1) : global.coin);
