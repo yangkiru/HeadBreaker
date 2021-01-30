@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Particles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "particle_init",
+  "name": "laser_particle_init",
   "tags": [],
   "resourceType": "GMScript",
 }

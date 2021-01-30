@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"particle_init","path":"scripts/particle_init/particle_init.yy",},"order":0,},
+    {"id":{"name":"cthun_particle_init","path":"scripts/cthun_particle_init/cthun_particle_init.yy",},"order":0,},
     {"id":{"name":"UNIT_Type","path":"scripts/UNIT_Type/UNIT_Type.yy",},"order":3,},
     {"id":{"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},"order":3,},
     {"id":{"name":"Excalibur","path":"scripts/Excalibur/Excalibur.yy",},"order":1,},
@@ -67,6 +67,7 @@
     {"id":{"name":"spr_line_2","path":"sprites/spr_line_2/spr_line_2.yy",},"order":9,},
     {"id":{"name":"ATEX","path":"extensions/ATEX/ATEX.yy",},"order":0,},
     {"id":{"name":"compatibility_report_050419_154102412","path":"notes/compatibility_report_050419_154102412/compatibility_report_050419_154102412.yy",},"order":0,},
+    {"id":{"name":"laser_particle_init","path":"scripts/laser_particle_init/laser_particle_init.yy",},"order":1,},
     {"id":{"name":"btn_store","path":"objects/btn_store/btn_store.yy",},"order":2,},
     {"id":{"name":"path_store_close","path":"paths/path_store_close/path_store_close.yy",},"order":1,},
     {"id":{"name":"room_manager","path":"objects/room_manager/room_manager.yy",},"order":2,},
