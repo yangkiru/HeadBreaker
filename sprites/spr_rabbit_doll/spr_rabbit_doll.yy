@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 80,
-  "bbox_right": 430,
-  "bbox_top": 75,
-  "bbox_bottom": 488,
+  "bbox_left": 131,
+  "bbox_right": 421,
+  "bbox_top": 44,
+  "bbox_bottom": 386,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9854df62-a08f-4d83-be84-934dacf7cc2c","path":"sprites/spr_shovel/spr_shovel.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9854df62-a08f-4d83-be84-934dacf7cc2c","path":"sprites/spr_shovel/spr_shovel.yy",},"LayerId":{"name":"749d700c-b672-4533-80c3-14728443857b","path":"sprites/spr_shovel/spr_shovel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},"resourceVersion":"1.0","name":"9854df62-a08f-4d83-be84-934dacf7cc2c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d0a4909f-e95d-4fa0-9c20-3f6bccd977a4","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d0a4909f-e95d-4fa0-9c20-3f6bccd977a4","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},"LayerId":{"name":"a8c802a6-e6ba-4fbc-8279-8176ccc64944","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rabbit_doll","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},"resourceVersion":"1.0","name":"d0a4909f-e95d-4fa0-9c20-3f6bccd977a4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},
+    "spriteId": {"name":"spr_rabbit_doll","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8179b7bf-94e5-42a3-bfc3-80143013db15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9854df62-a08f-4d83-be84-934dacf7cc2c","path":"sprites/spr_shovel/spr_shovel.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a60f8b98-9912-4b0b-b867-5f401cface9b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0a4909f-e95d-4fa0-9c20-3f6bccd977a4","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},
+    "parent": {"name":"spr_rabbit_doll","path":"sprites/spr_rabbit_doll/spr_rabbit_doll.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_shovel",
+    "name": "spr_rabbit_doll",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"749d700c-b672-4533-80c3-14728443857b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a8c802a6-e6ba-4fbc-8279-8176ccc64944","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Weapons",
     "path": "folders/Sprites/Items/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_shovel",
+  "name": "spr_rabbit_doll",
   "tags": [],
   "resourceType": "GMSprite",
 }

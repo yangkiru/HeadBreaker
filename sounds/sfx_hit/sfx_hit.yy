@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "hit_sfx.mp3",
+  "soundFile": "sfx_hit.mp3",
   "duration": 0.318469,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "hit_sfx",
+  "name": "sfx_hit",
   "tags": [],
   "resourceType": "GMSound",
 }

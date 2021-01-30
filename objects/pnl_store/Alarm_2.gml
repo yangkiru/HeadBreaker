@@ -19,6 +19,7 @@ ds_list_add(item_list, new Excalibur());
 ds_list_add(item_list, new HatTrick());
 ds_list_add(item_list, new MaskOfCThun());
 ds_list_add(item_list, new Laser());
+ds_list_add(item_list, new TreasureMap());
 
 ds_list_shuffle(item_list);
 

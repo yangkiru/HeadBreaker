@@ -22,9 +22,15 @@ function Laser() : DotWeapon() constructor{
 	
 	OnLeftPressed = function () {
 		weapon.image_index = 1;
+		audio_sound_gain(sfx_switch, 0.2, 0);
+		audio_sound_pitch(sfx_switch, 0.5);
+		audio_play_sound(sfx_switch, 10, false);
 	}
 	
 	OnLeftReleased = function () {
 		weapon.image_index = 0;
+		audio_sound_gain(sfx_switch, 0.2, 0);
+		audio_sound_pitch(sfx_switch, 0.6);
+		audio_play_sound(sfx_switch, 10, false);
 	}
 }

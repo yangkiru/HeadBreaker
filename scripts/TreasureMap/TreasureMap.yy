@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Skills",
+    "path": "folders/Scripts/Items/Skills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bezier_point_find",
+  "name": "TreasureMap",
   "tags": [],
   "resourceType": "GMScript",
 }

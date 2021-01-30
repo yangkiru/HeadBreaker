@@ -6,8 +6,8 @@ if (!visible)
 if (t >= 1) {
 	t = 0;
 	is_damaged = false;
-	audio_sound_pitch(hit_sfx, random_range(0.5, 0.7));
-	audio_play_sound(hit_sfx, 10, false);
+	audio_sound_pitch(sfx_hit, random_range(0.5, 0.7));
+	audio_play_sound(sfx_hit, 10, false);
 	damage_to_unit(target, 1, noone, target.x, target.y - 10);
 	add_money(1);
 	instance_destroy_pooled(self);

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function unit_on_hit(_unit) {
+function unit_on_hit(_unit, is_sfx_hit) {
 	if (global.is_die) return;
 		
 	alarm[0] = 1;	/// 스케일이 돌아오는 알람
@@ -14,6 +14,8 @@ function unit_on_hit(_unit) {
 	add_money(weapon.data.click_money);
 		
 	// 클릭 사운드
-	audio_sound_pitch(hit_sfx, random_range(0.8, 1.2));
-	audio_play_sound(hit_sfx, 10, false);
+	if (is_sfx_hit) {
+		audio_sound_pitch(sfx_hit, random_range(0.8, 1.2));
+		audio_play_sound(sfx_hit, 10, false);
+	}
 }
