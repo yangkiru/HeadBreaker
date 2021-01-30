@@ -9,6 +9,7 @@ function Laser() : DotWeapon() constructor{
 	click_money = 0.1;
 	
 	OnLeftDown = function() {
+		part_particles_create(global.part_system, mouse_x, mouse_y, global.pt_laser, 1);
 		if (current_dot_cool > 0) return;
 		
 		global.clicked_unit = top_instance_position(mouse_x, mouse_y, unit);
