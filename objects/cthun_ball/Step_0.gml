@@ -9,7 +9,7 @@ if (t >= 1) {
 	audio_sound_pitch(sfx_hit, random_range(0.5, 0.7));
 	audio_play_sound(sfx_hit, 10, false);
 	damage_to_unit(target, 1, noone, target.x, target.y - 10);
-	add_money(1);
+	add_coin(1);
 	instance_destroy_pooled(self);
 }
 

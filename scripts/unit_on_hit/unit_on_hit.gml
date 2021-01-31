@@ -11,7 +11,7 @@ function unit_on_hit(_unit, is_sfx_hit) {
 	is_critical[0] = false;
 	_damage = weapon.data.GetDamage(_unit, is_critical);
 	damage_to_unit(_unit, _damage, is_critical[0], mouse_x, mouse_y);
-	add_money(weapon.data.click_money);
+	add_coin(weapon.data.click_money);
 		
 	// 클릭 사운드
 	if (is_sfx_hit) {

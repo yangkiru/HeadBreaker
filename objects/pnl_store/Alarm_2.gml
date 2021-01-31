@@ -1,4 +1,4 @@
-/// @description Item Data 설정
+/// @description 리스트 초기화
 // You can write your code in this editor
 
 // 리스트 입력
@@ -13,7 +13,7 @@ if (ds_list_empty(store_list)) {
 
 if(!ds_list_empty(item_list))
 	ds_list_clear(item_list);
-	
+
 ds_list_add(item_list, new BlowHammer());
 ds_list_add(item_list, new Excalibur());
 ds_list_add(item_list, new HatTrick());
