@@ -8,5 +8,7 @@ function TreasureMap() : Skill() constructor {
 		add_coin(irandom_range(1, 100));
 		if (weapon.data.name == "Shovel")
 			cool_time = 20;
+		else
+			cool_time = 60;
 	}
 }

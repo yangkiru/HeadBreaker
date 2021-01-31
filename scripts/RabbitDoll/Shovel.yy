@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Items/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "set_weapon",
+  "name": "Shovel",
   "tags": [],
   "resourceType": "GMScript",
 }

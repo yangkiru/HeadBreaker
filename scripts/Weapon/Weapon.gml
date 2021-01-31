@@ -28,4 +28,4 @@ function Weapon() : Item() constructor {
 	}
 	
 	OnLeftReleased = noone;
-} 
+}
