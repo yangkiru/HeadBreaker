@@ -11,4 +11,5 @@ global.last_hit[0] = noone;
 global.last_hit[1] = noone;
 global.last_hit[2] = noone;
 global.alive_units = ds_list_create();
+global.reduce_skill_cool = 1;
 room_goto_next();

@@ -32,4 +32,5 @@ function add_items_to_list(list) {
 	
 	//Artifact
 	ds_list_add(list, new HatTrick());
+	ds_list_add(list, new AlarmClock());
 }

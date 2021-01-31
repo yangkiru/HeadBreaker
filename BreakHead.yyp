@@ -97,6 +97,7 @@
     {"id":{"name":"instance_pooling_pool_size","path":"scripts/instance_pooling_pool_size/instance_pooling_pool_size.yy",},"order":6,},
     {"id":{"name":"weapon_spawn_point","path":"objects/weapon_spawn_point/weapon_spawn_point.yy",},"order":3,},
     {"id":{"name":"spr_finger","path":"sprites/spr_finger/spr_finger.yy",},"order":2,},
+    {"id":{"name":"AlarmClock","path":"scripts/AlarmClock/AlarmClock.yy",},"order":2,},
     {"id":{"name":"instance_pooling_clear_pool","path":"scripts/instance_pooling_clear_pool/instance_pooling_clear_pool.yy",},"order":4,},
     {"id":{"name":"coin_hud","path":"objects/coin_hud/coin_hud.yy",},"order":4,},
     {"id":{"name":"damage_to_unit","path":"scripts/damage_to_unit/damage_to_unit.yy",},"order":6,},

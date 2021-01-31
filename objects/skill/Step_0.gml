@@ -1,7 +1,7 @@
 /// @description 쿨타임
 // You can write your code in this editor
 if (cool_time > 0) {
-	cool_time -= delta_time / 1000000;
+	cool_time -= delta_time / 1000000 * global.reduce_skill_cool;
 	t_recover = 0;
 }
 else if (cool_time < 0) {
