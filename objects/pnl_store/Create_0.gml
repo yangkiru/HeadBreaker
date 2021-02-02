@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+shop_cool = 5;
+t = shop_cool;
+is_shop_reset = true;
 first_x = x;
 first_y = y;
 layer_set_visible("GUI_Store", false);

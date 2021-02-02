@@ -21,3 +21,9 @@ ds_list_shuffle(item_list);
 for (i = 0; i < min(ds_list_size(store_list), ds_list_size(item_list)); i++){
 	store_list[| i].data = item_list[| i];
 }
+
+t = shop_cool;
+is_shop_reset = true;
+
+if layer_get_visible("GUI_Store")
+	alarm[0] = 10;
