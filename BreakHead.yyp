@@ -39,6 +39,7 @@
     {"id":{"name":"spr_check","path":"sprites/spr_check/spr_check.yy",},"order":7,},
     {"id":{"name":"oops_effect","path":"objects/oops_effect/oops_effect.yy",},"order":1,},
     {"id":{"name":"spr_line_1","path":"sprites/spr_line_1/spr_line_1.yy",},"order":8,},
+    {"id":{"name":"add_items_to_list","path":"scripts/add_items_to_list/add_items_to_list.yy",},"order":9,},
     {"id":{"name":"initial_manager","path":"objects/initial_manager/initial_manager.yy",},"order":0,},
     {"id":{"name":"Laser","path":"scripts/Laser/Laser.yy",},"order":4,},
     {"id":{"name":"inventory_manager","path":"objects/inventory_manager/inventory_manager.yy",},"order":1,},

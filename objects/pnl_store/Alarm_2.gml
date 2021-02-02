@@ -17,9 +17,13 @@ if(!ds_list_empty(item_list))
 add_items_to_list(item_list);
 
 ds_list_shuffle(item_list);
-
-for (i = 0; i < min(ds_list_size(store_list), ds_list_size(item_list)); i++){
-	store_list[| i].data = item_list[| i];
+size = ds_list_size(item_list)
+show_debug_message(size);
+for (i = 0; i < ds_list_size(store_list); i++){
+	if (i > size)
+		store_list[| i].data = noone;
+	else
+		store_list[| i].data = item_list[| i];
 }
 
 t = shop_cool;
