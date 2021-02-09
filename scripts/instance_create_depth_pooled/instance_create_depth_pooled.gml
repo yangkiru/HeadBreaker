@@ -3,7 +3,7 @@ function instance_create_depth_pooled(argument0, argument1, argument2, argument3
 	var yy = argument1
 	var d = argument2
 	var obj = argument3
-	var list = global.instance_pool
+	//var list = global.instance_pool
 
 	var found = pool_remove_object(obj)
 	with (found)

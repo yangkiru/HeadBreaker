@@ -17,8 +17,8 @@ function add_items_to_list(list) {
 }
 
 function add_function(list, _type) {
-	found = ds_exists(global.item_inventory, _type);
-	show_debug_message(_type + string(found) + " " + string(typeof(global.item_inventory[| 0])));
-	if (!found)
+	found = global.item_inventory[? _type];
+	show_debug_message(found);
+	if (is_undefined(found))
 		ds_list_add(list, new _type());
 }

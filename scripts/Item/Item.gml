@@ -11,8 +11,9 @@ enum ITEM_Type
 
 function Item() constructor {
 	name = "";
+	struct_name = "Item";
 	price = 0;
-	sale = 0;
+	//sale = 0;
 	type = ITEM_Type.Nothing;
 	spr = noone;
 	OnInit = function() {}

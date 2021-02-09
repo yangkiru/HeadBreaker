@@ -1,4 +1,5 @@
 function Weapon() : Item() constructor {
+	struct_name = Weapon;
 	damage = 0;
 	type = ITEM_Type.Weapon;
 	extra_damage = 0;

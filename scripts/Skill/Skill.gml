@@ -3,7 +3,7 @@
 function Skill() : Item() constructor{
 	type = ITEM_Type.Skill
 	cool_time = 1;
-	is_targeting = false;
+	//is_targeting = false;
 	OnActive = function () {}
 	OnDeactive = function () {}
 }

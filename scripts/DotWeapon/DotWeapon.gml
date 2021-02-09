@@ -1,4 +1,5 @@
 function DotWeapon() : Weapon() constructor {
+	struct_name = DotWeapon;
 	dot_cool = 0.5;
 	current_dot_cool = 0;
 	
@@ -7,7 +8,7 @@ function DotWeapon() : Weapon() constructor {
 		
 		global.clicked_unit = top_instance_position(mouse_x, mouse_y, unit);
 		if instance_exists(global.clicked_unit) {
-			unit_on_hit(global.clicked_unit);
+			unit_on_hit(global.clicked_unit, false);
 			current_dot_cool = dot_cool;
 		}
 	}
