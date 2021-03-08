@@ -5,6 +5,7 @@ function add_items_to_list(list) {
 	add_function(list, Excalibur);
 	add_function(list, Shovel);
 	add_function(list, Laser);
+	add_function(list, WoodenSword);
 	
 	//Skill
 	add_function(list, MaskOfCThun);

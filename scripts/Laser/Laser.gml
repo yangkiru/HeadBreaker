@@ -5,7 +5,7 @@ function Laser() : DotWeapon() constructor{
 	struct_name = Laser;
 	spr = spr_laser;
 	damage = 0.1;
-	price = 40;
+	rank = "B";
 	dot_cool = 0.1;
 	click_money = 0.1;
 	

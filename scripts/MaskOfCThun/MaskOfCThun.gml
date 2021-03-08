@@ -3,7 +3,7 @@
 function MaskOfCThun() : Skill() constructor{
 	name = "Mask of C'Thun";
 	spr = spr_mask_of_cthun;
-	price = 7;
+	rank = "C";
 	cool_time = 5;
 	
 	OnInit = function(_skill) {

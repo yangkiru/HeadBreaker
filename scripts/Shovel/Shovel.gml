@@ -3,5 +3,5 @@ function Shovel() : Weapon() constructor {
 	struct_name = Shovel;
 	spr = spr_shovel;
 	damage = 3;
-	price = 40;
+	rank = "B";
 } 

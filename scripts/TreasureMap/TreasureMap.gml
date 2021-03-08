@@ -1,6 +1,6 @@
 function TreasureMap() : Skill() constructor {
 	name = "Treasure Map";
-	price = 100;
+	rank = "B";
 	spr = spr_treasure_map;
 	cool_time = 60;
 	

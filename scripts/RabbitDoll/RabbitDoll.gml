@@ -3,6 +3,6 @@ function RabbitDoll() : Weapon() constructor {
 	struct_name = RabbitDoll;
 	spr = spr_rabbit_doll;
 	damage = 1;
-	price = 25;
-	click_money = 2;
+	rank = "B";
+	click_money = 1.5;
 } 

@@ -12,7 +12,7 @@ enum ITEM_Type
 function Item() constructor {
 	name = "";
 	struct_name = "Item";
-	price = 0;
+	rank = "F";
 	//sale = 0;
 	type = ITEM_Type.Nothing;
 	spr = noone;
