@@ -1,6 +1,7 @@
 function HatTrick() : Artifact() constructor {
 	name = "Hat-Trick";
-	price = "B";
+	rank = "B";
+	price = 33;
 	spr = spr_hat_trick;
 	OnInit = function () {
 		ds_list_add(global.on_click_before, self);

@@ -4,4 +4,5 @@ function BlowHammer() : Weapon() constructor {
 	spr = spr_blow_hammer;
 	damage = 1.5;
 	rank = "C";
+	price = 20;
 } 

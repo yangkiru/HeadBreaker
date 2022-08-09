@@ -26,6 +26,10 @@ for (i = 0; i < ds_list_size(store_list); i++){
 		store_list[| i].data = item_list[| i];
 }
 
+for (i = 0; i < ds_list_size(check_box_list); i++){
+	check_box_list[| i].is_bought = false;
+}
+
 t = shop_cool;
 is_shop_reset = true;
 

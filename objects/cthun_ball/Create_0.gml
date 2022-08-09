@@ -6,3 +6,5 @@ last_x = x;
 last_y = y;
 image_xscale = 0.1;
 image_yscale = 0.1;
+ox = 0;
+oy = 0;

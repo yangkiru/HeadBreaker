@@ -8,6 +8,7 @@ function WoodenSword() : PiercingWeapon() constructor{
 	rank = "C";
 	dot_cool = 0;
 	click_money = 1;
+	price = 60;
 	
 	//OnLeftDown = function() {
 		//if (current_dot_cool > 0) return;

@@ -17,4 +17,5 @@ function Item() constructor {
 	type = ITEM_Type.Nothing;
 	spr = noone;
 	OnInit = function() {}
+	price = 0;
 }

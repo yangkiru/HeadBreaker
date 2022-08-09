@@ -5,11 +5,12 @@ function MaskOfCThun() : Skill() constructor{
 	spr = spr_mask_of_cthun;
 	rank = "C";
 	cool_time = 5;
+	price = 7;
+	instance = noone;
 	
 	OnInit = function(_skill) {
 		global.cthun_list = ds_list_create();
-		instance_create_layer(0, 0, "Skills", mask_of_cthun);
-		mask_of_cthun.origin = _skill;
+		instance = instance_create_layer(0, 0, "Skills", mask_of_cthun);
 	}
 	
 	OnActive = function(_skill) {
@@ -17,6 +18,6 @@ function MaskOfCThun() : Skill() constructor{
 			rnd = irandom_range(0, ds_list_size(global.alive_units) - 1);
 			ds_list_add(global.cthun_list, global.alive_units[| rnd]);
 		}
-		mask_of_cthun.alarm[0] = 1;
+		instance.alarm[0] = 1;
 	}
 }

@@ -5,4 +5,5 @@ function RabbitDoll() : Weapon() constructor {
 	damage = 1;
 	rank = "B";
 	click_money = 1.5;
+	price = 25;
 } 

@@ -8,6 +8,7 @@ function Laser() : DotWeapon() constructor{
 	rank = "B";
 	dot_cool = 0.1;
 	click_money = 0.1;
+	price = 40;
 	
 	OnLeftDown = function() {
 		part_particles_create(global.part_system, mouse_x, mouse_y, global.pt_laser, 1);

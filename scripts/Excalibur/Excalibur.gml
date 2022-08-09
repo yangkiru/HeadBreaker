@@ -4,4 +4,5 @@ function Excalibur() : Weapon() constructor {
 	spr = spr_excalibur;
 	damage = 2;
 	rank = "C";
+	price = 100;
 }

@@ -3,6 +3,7 @@ function TreasureMap() : Skill() constructor {
 	rank = "B";
 	spr = spr_treasure_map;
 	cool_time = 60;
+	price = 100;
 	
 	OnActive = function(_skill) {
 		add_coin(irandom_range(1, 100));

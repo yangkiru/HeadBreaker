@@ -4,4 +4,5 @@ function Shovel() : Weapon() constructor {
 	spr = spr_shovel;
 	damage = 3;
 	rank = "B";
+	price = 200;
 } 

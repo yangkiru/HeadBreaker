@@ -15,7 +15,7 @@ if (t >= 1) {
 
 t += delta_time / 1000000;
 
-p = bezier_point_find(t, origin.x, origin.y, mx, my, mx, my, target.x, target.y);
+p = bezier_point_find(t, ox, oy, mx, my, mx, my, target.x, target.y);
 x = p[0];
 y = p[1];
 image_angle = point_direction(last_x, last_y, x, y);
